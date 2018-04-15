@@ -1,0 +1,146 @@
+@import "../stylesheets/base/_breakpoint.scss"; 
+@import "../stylesheets/base/_typography.scss"; 
+@import "../stylesheets/base/_variables.scss"; 
+@import "../stylesheets/components/_button.scss";
+@import "../stylesheets/layouts/_header.scss"; 
+@import "../stylesheets/layouts/_footer.scss"; 
+
+
+@import "../stylesheets/components/_section__title.scss";  
+@import "../stylesheets/components/_section_container.scss"; 
+@import "../stylesheets/components/_section_container__content.scss";
+@import "../stylesheets/components/_section_container__background.scss";  
+@import "../stylesheets/components/_section_container__pattern.scss"; 
+@import "../stylesheets/components/_section__content_wrapper.scss"; 
+@import "../stylesheets/components/_cards.scss";
+@import "../stylesheets/components/_project_card.scss";
+@import "../stylesheets/components/_profile_card.scss";
+@import "../stylesheets/components/_contact_form.scss";
+@import "../stylesheets/components/_hero_display.scss";
+@import "../stylesheets/components/_hero_animation.scss";
+@import "../stylesheets/containers/_hero.scss";
+@import "../stylesheets/containers/_profile_summary.scss"; 
+@import "../stylesheets/containers/_work.scss"; 
+@import "../stylesheets/containers/_profile.scss"; 
+@import "../stylesheets/containers/_project.scss"; 
+
+#root{
+   
+  @media(max-width:$breakpoint-mobile){
+    
+  }
+
+
+}
+*{
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+}
+*, *:before, *:after{
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+ 
+
+html{
+background: #121a23; 
+font-size: 15px; 
+ 
+
+   
+@media(max-width:$breakpoint-mobile){
+   
+ 
+}
+}
+
+.page__container{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap; 
+  -webkit-box-pack:center; 
+      -ms-flex-pack:center; 
+          justify-content:center; 
+
+}
+
+body{ 
+display:flex;
+ 
+  font-family: "Play"; 
+  font-size: 1rem; 
+  line-height: 1.5rem; 
+  margin:auto;
+   
+  @media(max-width:$breakpoint-mobile){
+   
+  line-height:3rem;
+  }
+
+}
+
+h1{
+  font-family: "Orbitron";
+  font-size:2rem;
+  color: #607484;
+}
+
+h2{
+  font-family: "Play";
+  font-size: 1.5rem; 
+  color: #de6926; 
+  
+}
+
+
+h3{
+  font-size:1.4rem;
+  color: #607484;
+}
+h4{
+  line-height:1.5rem;
+
+}
+h5{
+  line-height:3rem;
+}
+
+p{
+  line-height:1.5rem;
+}
+
+
+header{
+  font-family: "Play", "Orbitron";
+  color: #de6926;
+}
+
+a{ 
+   
+   color: #de6926;
+  text-decoration: none;
+  text-align: center;  
+  font-size: 1.5rem; 
+  font-family: "Play"; 
+
+}
+
+nav li{
+  display:-webkit-inline-box;
+  display:-ms-inline-flexbox;
+  display:inline-flex; 
+ 
+}
+
+li{ 
+  list-style-type:none; 
+
+}
+
+.content{
+  width:100%;
+}
+
+

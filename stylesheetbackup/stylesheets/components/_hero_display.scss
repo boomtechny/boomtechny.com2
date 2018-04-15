@@ -1,0 +1,78 @@
+.hero-display{
+  display:flex; 
+  justify-content:center; 
+width:100%; 
+ line-height:2rem; 
+
+font-family : Play;
+font-size : 2rem;
+color : #D0DCE9;
+text-transform:uppercase;
+padding-top:2rem;
+
+@media (max-width:$breakpoint-desktop) and (min-width:$breakpoint-tablet){
+  font-size:1.75rem; 
+}
+@media(max-width:$breakpoint-mobile-x){
+ font-size:1.4rem;
+}
+}
+
+
+
+.hero-display li{
+  padding:.5rem;
+
+
+}
+
+.hero-display_text{
+  display:grid;
+  grid-template-columns:1fr 1fr; 
+  grid-template-rows:4fr;
+  
+  @media (max-width:$breakpoint-desktop) and (min-width:$breakpoint-mobile-x) {
+   grid-template-columns:1fr 3fr; 
+  }
+  @media(max-width:$breakpoint-mobile-x){
+    grid-template-columns:1fr 3fr; 
+  }
+
+
+}
+
+.hero-display_icon{
+justify-content:end;
+grid-column:1;
+justify-self:end;
+
+}
+.hero__display_list{
+  padding-top:.7em;
+  grid-column:2;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-content:center;
+
+
+}
+
+.hero__display_list li{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero-display svg{
+  width:auto;
+}

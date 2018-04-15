@@ -1,0 +1,216 @@
+.card_wrapper{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex; 
+  -webkit-box-orient:vertical; 
+  -webkit-box-direction:normal; 
+      -ms-flex-direction:column; 
+          flex-direction:column;
+  margin-top:1rem;
+ // width:30%; 
+
+  margin-left:2rem;
+  margin-right:2rem;
+
+  opacity:0;
+
+  @media(max-width:$breakpoint-desktop-x){
+   
+  // width:45%;
+       }
+       @media(max-width:$breakpoint-tablet){
+   
+        //width:45%
+            }
+            @media(max-width:$breakpoint-mobile-xx){
+              margin-left:0rem;
+              margin-right:0rem;
+           
+                  }
+            @media(max-width:$breakpoint-mobile-xx){
+   
+          width:auto;
+              margin-bottom:2rem;
+                  }
+            
+
+
+}
+.card_wrapper__background{
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+ 
+
+
+  background : -webkit-gradient(linear, left top, left bottom, from(rgba(19, 27, 36,1)), to(rgba(19,27,36,0.6)));
+ 
+
+
+  background : linear-gradient(to bottom, rgba(19, 27, 36,1), rgba(19,27,36,0.6)); 
+ 
+}
+.card_wrapper__title{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+width:100%;
+min-height:22rem;
+
+
+}
+
+
+
+
+.card_wrapper__title object{
+  width:90%;
+
+}
+
+.card_wrapper__services{
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows:1fr ; 
+}
+
+.services__display_icon{
+  grid-column:1; 
+  grid-row:1; 
+  justify-self:center;
+  -ms-flex-item-align:center;
+      align-self:center;
+
+}
+.services__tags{
+  grid-column: 2/4;
+  grid-row:1/3; 
+  justify-self:start; 
+  -ms-flex-item-align:start; 
+      align-self:start; 
+  line-height:.5rem; 
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  padding-right:.5rem;
+  @media(max-width:$breakpoint-tablet){
+   line-height:1.5rem;
+ 
+      }
+}
+.card_wrapper__cta{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  width:100%;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+
+}
+.card_wrapper a{
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+}
+.card_wrapper__links{
+  margin-bottom:1rem;
+  padding-left:1.5rem;
+  padding-right:1rem;
+
+}
+.card_wrapper__links button{
+  width:25%; 
+  
+  }
+
+.services__tags p{
+  color: #D0DCE9; 
+  font-size:1.2rem;
+  @media(max-width:$breakpoint-desktop-x){
+   
+   font-size:1.5rem;
+        }
+        @media(max-width:$breakpoint-desktop){
+          font-size:1.2rem;
+          }
+
+}
+.section_content_wrapper__cards{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex; 
+  -webkit-box-orient:horizontal; 
+  -webkit-box-direction:normal; 
+      -ms-flex-direction:row; 
+          flex-direction:row; 
+  -ms-flex-wrap:wrap; 
+  justify-content: center;
+      flex-wrap:wrap;
+
+  @media(max-width:$breakpoint-tablet){
+  //justify-content:space-evenly; 
+
+       } 
+       @media(max-width:$breakpoint-mobile-xx){
+      -webkit-box-orient:vertical;
+      -webkit-box-direction:normal;
+          -ms-flex-direction:column;
+              flex-direction:column;
+   
+     
+              }
+ 
+}
+
+.--revealcard{
+
+  -webkit-animation-name:animation_fadeDown;
+
+          animation-name:animation_fadeDown;
+  -webkit-animation-delay:0;
+          animation-delay:0;
+  -webkit-animation-duration:1000ms;
+          animation-duration:1000ms;
+  -webkit-animation-fill-mode:forwards;
+          animation-fill-mode:forwards;
+  -webkit-animation-timing-function:ease-in;
+          animation-timing-function:ease-in;
+}
+
+.--hiddencard{
+opacity:0; 
+-webkit-transform:none; 
+        transform:none;
+}
+
+@-webkit-keyframes animation_fadeDown{
+  0%{
+   opacity:0;
+   -webkit-transform:translate3d(0, -5%, 0);
+           transform:translate3d(0, -5%, 0);
+  }
+
+  100%{
+    opacity:1; 
+    -webkit-transform:none; 
+            transform:none;
+  }
+}
+
+@keyframes animation_fadeDown{
+  0%{
+   opacity:0;
+   -webkit-transform:translate3d(0, -5%, 0);
+           transform:translate3d(0, -5%, 0);
+  }
+
+  100%{
+    opacity:1; 
+    -webkit-transform:none; 
+            transform:none;
+  }
+}

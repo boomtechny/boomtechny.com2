@@ -1,0 +1,123 @@
+.hero-cta{
+ display:grid; 
+ grid-template-columns:1fr 1fr 1fr;  
+ @media(max-width:$breakpoint-mobile-x){
+ margin-top:-2rem;
+}
+
+}
+.hero-cta button{
+grid-column: 3; 
+justify-self:start; 
+
+@media(max-width:$breakpoint-desktop-x) and (max-width:$breakpoint-mobile) and (min-width:$breakpoint-mobile){
+grid-column:2; 
+margin-top:2rem;
+margin-bottom:2rem;
+-webkit-box-pack:center;
+    -ms-flex-pack:center;
+        justify-content:center;
+justify-self:center;
+}
+@media(max-width:$breakpoint-desktop){
+
+}
+
+@media(max-width:$breakpoint-tablet){
+  grid-column:2;
+
+  margin-bottom:3rem;
+}
+@media(max-width:$breakpoint-mobile-x){
+  margin-top:-5rem;
+  
+    
+      }
+      @media(max-width:$breakpoint-mobile){
+      
+        margin-top:-6rem;
+          
+            }
+
+}
+
+.hero{
+  margin-bottom:10rem;
+
+}
+
+
+.hero__indicator_scroll{
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex; 
+ -webkit-box-pack: center; 
+     -ms-flex-pack: center; 
+         justify-content: center; 
+ width:100%;
+ @media(max-width:$breakpoint-mobile){
+   margin-top:-2rem;
+ }
+
+}
+
+.scroll_arrow:hover{
+  .indicator_text{
+    fill:#df3f05; 
+  }
+  #scroll_arrow_icon{
+    -webkit-animation:moveDown 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
+            animation:moveDown 0.8s cubic-bezier(0.215, 0.610, 0.355, 1); 
+    -webkit-animation-iteration-count:2; 
+            animation-iteration-count:2; 
+
+   
+    
+  }
+}
+@-webkit-keyframes moveDown{
+  from{
+-webkit-transform:translate(0,0);
+        transform:translate(0,0);
+  }
+  to{
+-webkit-transform:translate(0,80px);
+        transform:translate(0,80px);
+  }
+}
+@keyframes moveDown{
+  from{
+-webkit-transform:translate(0,0);
+        transform:translate(0,0);
+  }
+  to{
+-webkit-transform:translate(0,80px);
+        transform:translate(0,80px);
+  }
+}
+
+.scroll_anchor{
+  position:relative;
+ display: inline-block; 
+ height:100%; 
+
+}
+
+.scroll_anchor:after{
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+
+
+.scroll_arrow:hover .indicator_text{
+  fill: #df3f05;
+
+  }
+
+  .scroll_arrow{
+    cursor:pointer;
+  }

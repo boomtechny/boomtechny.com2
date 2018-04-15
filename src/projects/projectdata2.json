@@ -1,0 +1,170 @@
+
+{
+  "projects": [
+
+  {
+    "id": 1,
+    "title": "BoomTech",
+    "services": [
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ], 
+    "image": "logo_bt.svg", 
+    "shortdescription": "Personal Portfolio",
+    "techKeywords": "React, Static", 
+    "externallinks": [{
+      "id": 1,
+      "name": "Git",
+      "svgref":"git",
+      "image":"git-icon.svg",
+      "url":  "https://github.com/boomtechny"
+    },
+    {
+      "id": 2, 
+      "name": "Behance",
+      "svgref": "be", 
+      "image": "be-icon.svg",
+      "url": "https://www.behance.net/boomtech" 
+    }], 
+    "sections":[
+      {
+        "sectionid":1,
+        "sectiontitle":"Overview",
+        "subsections":[
+          {
+            "id":1, 
+            "title":"Challenge", 
+            "information":"Wanted to create an identity for myself. I also needed a site to not only showcase my work but also provide  place that my future clients and coworkers can go to learn about me."
+            }
+          ]
+      },
+      {
+          "sectionid":2,
+          "sectiontitle":"Brand",
+          "subsections":[
+            {
+              "id":1, 
+              "title":"Typography", 
+              "images": [{
+                "imageid": 1,
+                "imagetype":"behance",
+                "image":"bt_typography.png",
+                "imagetitle": "Typography",
+                "imagecaption":"Typography used by BoomTech Brand", 
+                "imageformat":"png" 
+                }]
+            }]
+        }, 
+        {
+          "sectionid":3, 
+          "sectiontitle":"Web", 
+          "subsections":[
+            {
+              "id":1, 
+              "title":"SiteMap"
+            },
+            { 
+              "id":2,
+              "title":"WireFrame" 
+            }]
+        }]
+      },
+  {
+    "id": 2,
+    "title": "Beast1x5",
+    "services":[
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "logo_beast1x5.svg",
+    "shortdescription": "Brand Material and Blog for Video Game Enthusiast",
+    "techKeywords":"Wordpress, PHP, MySQL, Twitch API, Youtube API", 
+    "externallinks": [{
+      "id": 1,
+      "name": "Git",
+      "svgref":"git",
+      "image":"git-icon.svg",
+      "url":  "https://github.com/boomtechny"
+    },
+    {
+      "id": 2, 
+      "name": "Behance", 
+      "svgref":"be",
+      "image": "be-icon.svg",
+      "url": "https://www.behance.net/boomtech" 
+    }], 
+        "sections":[{
+          "sectionid":1,
+          "sectiontitle":"Brand",
+          "subsections":[{
+              "id":1, 
+              "title":"Typography", 
+              "images": [{
+                "imageid": 0,
+                "image":"bt_typography.png",
+                "imagetitle": "Typography",
+                "imagedescription":"Typography used by BoomTech Brand" 
+                }]
+            }]
+        }, 
+        {
+          "sectionid":2, 
+          "sectiontitle":"Web", 
+          "subsections":[
+            {
+              "id":1, 
+              "title":"SiteMap"
+            },
+            { 
+              "id":2,
+              "title":"WireFrame" 
+            }]
+        }]
+   }, 
+  
+  {
+    "id": 3,
+    "title": "Ecommerce",
+    "services":[
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "logo_beast1x5.svg"
+  }, 
+  {
+    "id": 4,
+    "title": "Beast1x5",
+    "services":[
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "logo_beast1x5.svg"
+  }, 
+  {
+    "id": 5,
+    "title": "Beast1x5",
+    "services":[
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "logo_beast1x5.svg"
+  }, 
+  {
+    "id": 6,
+    "title": "Beast1x5",
+    "services":[
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "logo_beast1x5.svg"
+  }
+
+
+  ]
+}

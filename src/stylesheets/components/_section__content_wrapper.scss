@@ -1,0 +1,29 @@
+.section__content_wrapper{
+  width:100%; 
+  height:100%;
+ grid-column:1/13; 
+ grid-row:2/5;
+ padding-top:2rem;
+  -ms-flex-item-align:start;
+      align-self:start;
+  justify-self:start; 
+z-index:1; 
+
+@media(max-width:$breakpoint-desktop-x){
+
+
+        }
+        @media(max-width:$breakpoint-desktop-x){
+   
+       
+                 }
+
+@media(max-width:$breakpoint-tablet){
+   
+grid-column:2/12; 
+      }
+      @media(max-width:$breakpoint-mobile-xx){
+        grid-column:1/13; 
+       
+              }   
+}

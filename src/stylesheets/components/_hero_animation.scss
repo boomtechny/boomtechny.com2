@@ -1,0 +1,48 @@
+.hero_animation{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  width:100%; 
+  -webkit-box-pack:center; 
+      -ms-flex-pack:center; 
+          justify-content:center;  
+  margin:auto; 
+  -webkit-box-orient:horizontal; 
+  -webkit-box-direction:normal; 
+      -ms-flex-direction:row; 
+          flex-direction:row; 
+  @media(max-width:$breakpoint-tablet){
+  
+        margin-top:-3rem;
+width:98%; 
+margin:auto; 
+ 
+    }
+    @media(max-width:$breakpoint-mobile-x){
+margin-top:-7rem;
+
+width:97%; 
+    margin-bottom:-1rem; 
+     
+    }
+    
+    
+    @media(max-width:$breakpoint-mobile){
+        margin-top:-10rem;
+        
+        width:97%; 
+            margin-bottom:-1rem; 
+             
+            }
+            
+
+
+}
+
+
+ 
+
+.hero_animation-full{
+  width:100%;
+  padding-right:5%; 
+}

@@ -1,0 +1,14 @@
+<svg class="scroll_arrow" id="scroll_icon" xmlns="http://www.w3.org/2000/svg" width="228" height="73.42" viewBox="0 0 228 73.42"><style type="text/css" >
+      <![CDATA[
+
+         .scroll_arrow:hover .indicator_text{
+           fill: #df3f05;
+           cursor:pointer;
+           }
+           
+          
+          
+
+      ]]>
+    </style><title>scroll_arrow</title><polygon id="scroll_arrow_icon" points="114 51.42 0 13.42 114 73.42 228 13.42 114 51.42" fill="#df3f05"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 74" begin="5s" dur="0.8s" repeatCount="2"/><animateTransform attributeName="transform" type="translate" from="0 0" to="0 74" begin="scroll_icon.mouseover" dur="0.8s" repeatCount="2"/></polygon><text class="indicator_text" transform="translate(66.43 14.84)" font-size="18" fill="#303740" font-family="Play-Regular, Play">Scroll Down</text></svg>
+

@@ -1,0 +1,14 @@
+.section_container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr ; 
+  margin-top:2rem;
+  margin-bottom:12rem;
+padding-top:5.5em;
+width:100%;
+@media(max-width:$breakpoint-mobile-x){
+  margin-top:1rem;
+     }
+
+
+}

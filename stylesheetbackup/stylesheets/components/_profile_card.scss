@@ -1,0 +1,26 @@
+.profile_card_container{
+  display:flex; 
+  width:100%;
+  justify-content:center;
+
+flex-direction:column;
+align-items:center;
+text-align:center;
+
+}
+.profile_card_container img{
+
+ object-fit:contain;
+ 
+}
+
+
+.profile_card_container-details{
+  color: #607484;
+
+  text-align:left; 
+
+}
+
+
+

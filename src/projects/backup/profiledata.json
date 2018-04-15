@@ -1,0 +1,44 @@
+{
+  "profile": 
+  {
+    "id": 1,
+    "name": "Kelly Martinez",
+    "affiliation": "BoomTech", 
+    "location": "New York",
+    "status": "Available for Work",
+    "loadouts": [{
+        "loadoutid": 1,
+        "categoryTitle": "Skills", 
+        "details":[{
+          "detailid": 1,
+          "detailTitle": "Front End Development",
+          "detailAddtl":"HTML, CSS, JS" 
+          },
+          {
+          "detailid": 2,
+          "detailTitle":"Back End Development", 
+          "detailAddtl":"PHP"
+          }] 
+        },
+        {
+        "loadoutid":2,
+        "categoryTitle":"Overview",
+        "details":[{
+          "detailid":1,
+          "detailTitle": "Background", 
+          "detailAddtl":"A developer and designer from an engineering background with an explosive passion for the ever growing field of technology. Operating under the affiliation BoomTech allows me to be able to take on a variety of projects to further advance my skill set and experience without limitation."
+          }]
+        },
+        {
+        "id":3,
+        "categoryTitle":"Objective",
+        "details":[{
+          "detailid":1, 
+          "detailTitle": "",
+          "detailAddtl": "additonal" 
+          }]
+        }
+      ]
+  }
+}
+

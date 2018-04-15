@@ -1,0 +1,157 @@
+.card_wrapper{
+  display:flex; 
+  flex-direction:column;
+  margin-top:1rem;
+ // width:30%; 
+  opacity:0;
+
+  @media(max-width:$breakpoint-desktop-x){
+   
+  // width:45%;
+       }
+       @media(max-width:$breakpoint-tablet){
+   
+        //width:45%
+            }
+            @media(max-width:$breakpoint-mobile-xx){
+   
+           
+                  }
+            @media(max-width:$breakpoint-mobile-xx){
+   
+          width:auto;
+              margin-bottom:2rem;
+                  }
+            
+
+
+}
+.card_wrapper__background{
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+ 
+
+
+  background : linear-gradient(to bottom, rgba(19, 27, 36,1), rgba(19,27,36,0.6)); 
+ 
+}
+.card_wrapper__title{
+  display:flex;
+  justify-content:center;
+width:100%;
+min-height:22rem;
+
+
+}
+
+
+
+
+.card_wrapper__title object{
+  width:90%;
+
+}
+
+.card_wrapper__services{
+  justify-content:center;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows:1fr ; 
+}
+
+.services__display_icon{
+  grid-column:1; 
+  grid-row:1; 
+  justify-self:center;
+  align-self:center;
+
+}
+.services__tags{
+  grid-column: 2/4;
+  grid-row:1/3; 
+  justify-self:start; 
+  align-self:start; 
+  line-height:.5rem; 
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  padding-right:.5rem;
+  @media(max-width:$breakpoint-tablet){
+   line-height:1.5rem;
+ 
+      }
+}
+.card_wrapper__cta{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  padding:1rem;
+}
+.card_wrapper a{
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+}
+.card_wrapper__links{
+  margin-bottom:1rem;
+  padding-left:1.5rem;
+  padding-right:1rem;
+
+}
+.card_wrapper__links button{
+  width:25%; 
+  
+  }
+
+.services__tags p{
+  color: #D0DCE9; 
+  font-size:1.2rem;
+  @media(max-width:$breakpoint-desktop-x){
+   
+   font-size:1.5rem;
+        }
+        @media(max-width:$breakpoint-desktop){
+          font-size:1.2rem;
+          }
+
+}
+.section_content_wrapper__cards{
+  display:flex; 
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  @media(max-width:$breakpoint-tablet){
+  //justify-content:space-evenly; 
+
+       } 
+       @media(max-width:$breakpoint-mobile-xx){
+      flex-direction:column;
+   
+     
+              }
+ 
+}
+
+.--revealcard{
+
+  animation-name:animation_fadeDown;
+  animation-delay:0;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  animation-timing-function:ease-in;
+}
+
+.--hiddencard{
+opacity:0; 
+transform:none;
+}
+
+@keyframes animation_fadeDown{
+  0%{
+   opacity:0;
+   transform:translate3d(0, -5%, 0);
+  }
+
+  100%{
+    opacity:1; 
+    transform:none;
+  }
+}

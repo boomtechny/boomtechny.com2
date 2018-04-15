@@ -1,0 +1,91 @@
+.hero-cta{
+ display:grid; 
+ grid-template-columns:1fr 1fr 1fr;  
+
+}
+.hero-cta button{
+grid-column: 3; 
+justify-self:start; 
+
+@media(max-width:$breakpoint-desktop-x) and (max-width:$breakpoint-mobile) and (min-width:$breakpoint-mobile){
+grid-column:2; 
+margin-top:2rem;
+margin-bottom:2rem;
+justify-content:center;
+justify-self:center;
+}
+@media(max-width:$breakpoint-desktop){
+
+}
+
+@media(max-width:$breakpoint-tablet){
+  grid-column:2;
+
+  margin-bottom:3rem;
+}
+
+}
+
+.hero{
+  margin-bottom:10rem;
+
+}
+
+
+.hero__indicator_scroll{
+ display:flex; 
+ justify-content: center; 
+ width:100%;
+ @media(max-width:$breakpoint-mobile){
+   
+   margin-top:2rem;
+ }
+
+}
+
+.scroll_arrow:hover{
+  .indicator_text{
+    fill:#df3f05; 
+  }
+  #scroll_arrow_icon{
+    animation:moveDown 0.8s linear; 
+    animation-iteration-count:2; 
+
+   
+    
+  }
+}
+@keyframes moveDown{
+  from{
+transform:translate(0,0);
+  }
+  to{
+transform:translate(0,80px);
+  }
+}
+
+.scroll_anchor{
+  position:relative;
+ display: inline-block; 
+ height:100%; 
+
+}
+
+.scroll_anchor:after{
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+
+
+.scroll_arrow:hover .indicator_text{
+  fill: #df3f05;
+
+  }
+
+  .scroll_arrow{
+    cursor:pointer;
+  }

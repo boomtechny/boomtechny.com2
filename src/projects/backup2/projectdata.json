@@ -1,0 +1,337 @@
+
+{
+  "projects": [
+
+  {
+    "id": 1,
+    "title": "BoomTech",
+    "services": [
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ], 
+    "image": "logo_bt.svg", 
+    "shortdescription": "Personal Portfolio",
+    "techKeywords": "React, Static, Sass, Webpack, Yarn", 
+    "externallinks": [{
+      "id": 1,
+      "name": "Git",
+      "svgref":"git",
+      "image":"git-icon.svg",
+      "url":  "https://github.com/boomtechny"
+    },
+    {
+      "id": 2, 
+      "name": "Behance",
+      "svgref": "be", 
+      "image": "be-icon.svg",
+      "url": "https://www.behance.net/boomtech" 
+    }], 
+    "sections":[
+      {
+        "sectionid":1,
+        "sectiontitle":"Overview",
+        "subsections":[
+          {
+            "id":1, 
+            "title":"Brief", 
+            "information":"Design of my own brand. A platform for my brand. A site to share my skills, and experience, showcase my work, and for those interested to easily reach me. A convenient way for clients, future employers, and co-workers to get more insight about myself, beyond the resume."
+          }, 
+          {
+            "id":2, 
+            "title":"Process", 
+            "information":"I wanted to create a brand design that I can have fun with and animate while expressing an explosive impact. It was unnecessary to use a robust backend to support a site that would consist of static content so I sought to find static site tooling that I can easily maintain. I also wanted to work with React and found React Static by Nozzle which made the adoption of React very seamless, as it used React and Webpack, which I could further expand on."
+          }
+
+          ]
+      },
+      {
+          "sectionid":2,
+          "sectiontitle":"Brand",
+          "subsections":[
+            {
+              "id":1, 
+              "title":"Logo Design", 
+              "images": [{
+                "imageid": 1,
+                "imagetype":"behance",
+                "image":"bt_typography.png",
+                "imagetitle": "Typography",
+                "imagecaption":"Typography used by BoomTech Brand", 
+                "imageformat":"png" 
+                }]
+            }, 
+            {
+              "id":1, 
+              "title":"Typography", 
+              "images": [{
+                "imageid": 1,
+                "imagetype":"behance",
+                "image":"bt_typography.png",
+                "imagetitle": "Typography",
+                "imagecaption":"Typography used by BoomTech Brand", 
+                "imageformat":"png" 
+                }]
+            }, 
+            {
+            "id":1, 
+            "title":"Color Scheme", 
+            "images": [{
+              "imageid": 1,
+              "imagetype":"behance",
+              "image":"bt_typography.png",
+              "imagetitle": "Typography",
+              "imagecaption":"Typography used by BoomTech Brand", 
+              "imageformat":"png" 
+              }]
+          
+        },
+
+        {
+          "id":1, 
+            "title":"Mockup", 
+            "images": [{
+              "imageid": 1,
+              "imagetype":"behance",
+              "image":"bt_typography.png",
+              "imagetitle": "Typography",
+              "imagecaption":"Typography used by BoomTech Brand", 
+              "imageformat":"png" 
+              }]
+          
+        }
+      ]}, 
+        {
+          "sectionid":3, 
+          "sectiontitle":"Web", 
+          "subsections":[
+            {
+              "id":1, 
+              "title":"Desktop and Mobile", 
+              "images": [
+                {
+                "imageid": 1,
+                "imagetype":"behance",
+                "image":"bt_desktopmockup.png",
+                "imagetitle": "Boomtech Home Page",
+                "imagecaption":"Boomtech home page on Desktop and Mobile", 
+                "imageformat":"png" 
+                }, 
+                {
+                  "imageid": 2,
+                  "imagetype":"behance",
+                  "image":"bt_tabletmockup.png",
+                  "imagetitle": "Boomtech Website Desktop and Tablet",
+                  "imagecaption":"Boomtech project view on Desktop and Mobile", 
+                  "imageformat":"png" 
+                  }
+              ]
+            }
+            
+            ]
+        }]
+      },
+  {
+    "id": 2,
+    "title": "Beast1x5",
+    "services":[
+      "BRAND IDENTITY", 
+      "WEB DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "logo_beast1x5.svg",
+    "shortdescription": "Brand Material and Video Blog for Video Game Enthusiast",
+    "techKeywords":"Wordpress, PHP, MySQL, Twitch API, Youtube API, Bootstrap", 
+    "externallinks": [{
+      "id": 1,
+      "name": "Git",
+      "svgref":"git",
+      "image":"git-icon.svg",
+      "url":  "https://github.com/boomtechny"
+    },
+    {
+      "id": 2, 
+      "name": "Behance", 
+      "svgref":"be",
+      "image": "be-icon.svg",
+      "url": "https://www.behance.net/boomtech" 
+    }], 
+        "sections":[
+          {
+            "sectionid":1, 
+            "sectiontitle":"Overview",
+            "subsections":[
+              {
+                "id":1, 
+                "title":"Brief", 
+                "information":"Wanted to create an identity for myself. I also needed a site to not only showcase my work but also provide  place that my future clients and coworkers can go to learn about me."
+              },
+              {
+                "id":2, 
+                "title":"Process", 
+                "information":"Utilized React Native and Redux to create a minium viable cross platform mobile application product. This involved first planning a stategy to implement the core features necessary to meet the user criteria. I established what data would be necessary for the content displayed on the user interface. I decided to utilize Firebase to handle realtime data store as well as user authentication."
+              }
+            ]},
+          {
+          "sectionid":1,
+          "sectiontitle":"Brand",
+          "subsections":[{
+              "id":1, 
+              "title":"Brand", 
+              "images": [{
+                "imageid": 0,
+                "image":"beast_logo.png",
+                "imagetitle": "Logo",
+                "imagedescription":"Logo used by Beast1x5" 
+                }]
+            }]
+        }, 
+        {
+          "sectionid":2, 
+          "sectiontitle":"Web", 
+          "subsections":[
+            {
+              "id":1, 
+              "title":"Desktop and Mobile", 
+              "images": [
+                {
+                "imageid": 1,
+                "imagetype":"behance",
+                "image":"bt_desktopmockup.png",
+                "imagetitle": "Boomtech Home Page",
+                "imagecaption":"Boomtech home page on Desktop and Mobile", 
+                "imageformat":"png" 
+                }, 
+                {
+                  "imageid": 2,
+                  "imagetype":"behance",
+                  "image":"bt_tabletmockup.png",
+                  "imagetitle": "Boomtech Website Desktop and Tablet",
+                  "imagecaption":"Boomtech project view on Desktop and Mobile", 
+                  "imageformat":"png" 
+                  }
+              ]
+            }
+            
+            ]
+        }]
+   },
+   {
+    "id": 2,
+    "title": "Match-up",
+    "services":[
+      "MOBILE DEVELOPMENT", 
+      "GRAPHIC DESIGN"
+    ],
+    "image": "match-up.svg",
+    "shortdescription": "Application for fighters and gym owners to conveniently find sparring partners and schedule sparring",
+    "techKeywords":"React Native, iOS, Android, Redux, Firebase", 
+    "externallinks": [{
+      "id": 1,
+      "name": "Git",
+      "svgref":"git",
+      "image":"git-icon.svg",
+      "url":  "https://github.com/boomtechny"
+    },
+    {
+      "id": 2, 
+      "name": "Behance", 
+      "svgref":"be",
+      "image": "be-icon.svg",
+      "url": "https://www.behance.net/boomtech" 
+    }], 
+    "sections":[
+      {
+        "sectionid":1,
+        "sectiontitle":"Overview",
+        "subsections":[
+          {
+            "id":1, 
+            "title":"Brief", 
+            "information":"As a gym owner or a fighter the user would like to find sparring partners based on specific parameters and submit to the potential sparring partner a request to setup sparring"
+            }, 
+            {
+              "id":2, 
+              "title":"Process", 
+              "information":"Utilized React Native and Redux to create a minium viable cross platform mobile application product. This involved first planning a stategy to implement the core features necessary to meet the user criteria. I established what data would be necessary for the content displayed on the user interface. I decided to utilize Firebase to handle realtime data store as well as user authentication."
+            }
+          ]
+        }, 
+        {
+          "sectionid":2,
+          "sectiontitle":"Demo",
+          "subsections":[
+            {
+              "id":1, 
+              "title":"Splash Screen", 
+              "images": [
+                {
+                "imageid": 1,
+                "imagetype":"behance",
+                "image":"matchup-splash.png",
+                "imagetitle": "Typography",
+                "imagecaption":"Welcome", 
+                "imageformat":"png" 
+                },
+                {
+                  "imageid": 2,
+                "imagetype":"behance",
+                "image":"matchup-welcome.png",
+                "imagetitle": "Welcome",
+                "imagecaption":"Welcome", 
+                "imageformat":"png"
+                },
+                {
+                  "imageid": 3,
+                "imagetype":"behance",
+                "image":"matchup-registration.png",
+                "imagetitle": "Registration",
+                "imagecaption":"Registration", 
+                "imageformat":"png"
+                }, 
+                {
+                  "imageid": 4,
+                "imagetype":"behance",
+                "image":"matchup-onboarding.png",
+                "imagetitle": "Onboarding",
+                "imagecaption":"Onboarding", 
+                "imageformat":"png"
+                }, 
+                {
+                  "imageid": 5,
+                "imagetype":"behance",
+                "image":"matchup-dashboard.png",
+                "imagetitle": "Dashboard",
+                "imagecaption":"Dashboard", 
+                "imageformat":"png"
+                }, 
+                {
+                  "imageid": 6,
+                "imagetype":"behance",
+                "image":"matchup-sparsearch.png",
+                "imagetitle": "Spar Partner Search",
+                "imagecaption":"Sparring Partner Search", 
+                "imageformat":"png"
+                }, 
+                {
+                  "imageid": 7,
+                "imagetype":"behance",
+                "image":"matchup-sparrequest.png",
+                "imagetitle": "Spar Request",
+                "imagecaption":"Spar Request", 
+                "imageformat":"png"
+                }, 
+                {
+                  "imageid": 8,
+                "imagetype":"behance",
+                "image":"matchup-profile.png",
+                "imagetitle": "Spar Profile",
+                "imagecaption":"Spar Profile", 
+                "imageformat":"png"
+                } 
+              ]
+            }
+          
+        ]
+}
+]}]}
