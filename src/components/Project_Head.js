@@ -8,7 +8,7 @@ import behanceSvg from '../assets/images/be-icon.svg'
 import gitSvg from '../assets/images/git-icon.svg'
 import Decorator_Square from '../assets/images/decorator_square_project.svg'
 import ReactDOM from 'react-dom'
-
+import LiveButtonIcon from '../components/Live_Button_Icon'
 
 
 class Project_Head extends React.Component{
@@ -80,6 +80,7 @@ let linkSet = svgLink.childNodes[0];
 //  console.log(spanSet)  
 }, this); 
 
+
 //const checking = document.getElementById()
 //console.log(spanSet) ;
 
@@ -114,6 +115,7 @@ let linkSet = svgLink.childNodes[0];
 <div className = "project__grid">
    <div className = "project_image__wrapper">
       <div className ="project__image">
+      <a className = "card_livelink" href = {this.props.livelink}/>
       <object className = "image__wrapper" data={this.props.main_image} type="image/svg+xml">
           </object>
       </div>
@@ -164,6 +166,7 @@ let linkSet = svgLink.childNodes[0];
      
      
       <div className = "project_externallinks__icons" ref="inlineSVGLocation" >
+       <LiveButtonIcon href={this.props.livelink}/>
 </div>
 
 

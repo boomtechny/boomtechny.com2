@@ -57,6 +57,7 @@ return(
   <div className="subsection__wrapper --revealloadout">
 
 {this.subSectionLoadoutCard(this.props.subsectioninfoblock)}
+
 {this.subSectionGetImage(this.props.subsectionimages)}
 
 </div>)

@@ -73,7 +73,8 @@ return(
   <article className = "project__container">
   <header className = "project__header">
 
-  <Project_Head main_image = {imagesource} tags={projectcard.services} project_title ={projectcard.title} project_description={projectcard.shortdescription} project_techKeywords={projectcard.techKeywords} project_externalLinks={projectcard.externallinks}/>
+  <Project_Head main_image = {imagesource} 
+          livelink={projectcard.liveurl} tags={projectcard.services} project_title ={projectcard.title} project_description={projectcard.shortdescription} project_techKeywords={projectcard.techKeywords} project_externalLinks={projectcard.externallinks}/>
 
   <div className="hero__indicator_scroll project">
 

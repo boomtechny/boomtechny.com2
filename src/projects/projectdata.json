@@ -9,6 +9,7 @@
                 "WEB DEVELOPMENT",
                 "GRAPHIC DESIGN"
             ],
+            "liveurl": "https://www.boomtechny.com",
             "image": "logo_bt.svg",
             "shortdescription": "Personal Portfolio",
             "techKeywords": "React, Static, Sass, Webpack, Yarn",

@@ -3,6 +3,7 @@ import LocalButton from '../components/LocalButton'
 import Hero_Animation from '../components/Hero_Animation'
 import Hero_Display_Text from '../components/Hero_Display_Text'
 import Indicator_Scroll_Down from '../components/Indicator_Scroll_Down'
+import ButtonLink from '../components/Button_Link';
 //
 
 class Hero extends React.Component{
@@ -37,6 +38,7 @@ handleClick(e){
       <Hero_Display_Text/>
       <Hero_Animation/>
       <div className = "hero-cta"> 
+      <ButtonLink href="https://github.com/boomtechny" label = "VIEW GITHUB"/>
   <LocalButton scrollto=".contact" label = "CONTACT"/>
   </div>
   <div className="hero__indicator_scroll">

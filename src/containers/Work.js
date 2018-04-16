@@ -24,7 +24,8 @@ class Work extends React.Component{
   //console.log(animState);
     let index = 0;
     
-    return projects.map((project,index) => <Project_Card key={project.id} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {this.state.cardReveal} animDelay={((index*0.5)+1)+'s'}/>); 
+    return projects.map((project,index) => <Project_Card key={project.id} source={project.externallinks[0].url}   keyinfo={project.shortdescription}
+      liveurl={project.liveurl} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {this.state.cardReveal} animDelay={((index*0.5)+1)+'s'}/>); 
     
   }
   
@@ -33,7 +34,8 @@ class Work extends React.Component{
 //console.log('entered');
   //console.log(project);
  
-    return <Project_Card key={project.id} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {false} animDelay={index*0.5+'s'}/>;
+    return <Project_Card key={project.id} source={project.externallinks[0].url}
+      liveurl={project.liveurl} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {false} animDelay={index*0.5+'s'}/>;
 
   }
 
