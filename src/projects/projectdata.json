@@ -337,7 +337,7 @@
             "liveurl":"https://boomtechny.github.io/TozaiSake/",
             "image": "tozai_preview.png",
             "shortdescription": ["Single page site showcasing Tozai Sake Products"," - Responsive full screen menu and fixed header", " - Parallax: backgrounds and on scroll animations"," - Contact and Subscription Forms", " - Interactive Product User Interface"," - Fixed header", " - Google Maps API Distribution List"],
-            "techKeywords": "HTML5, CSS3, Vanilla JS, CSS Animations, Flexbox, Parallax, GoogleMaps, Social Media, SEO, Front End Optimization",
+            "techKeywords": "HTML5, CSS3, Vanilla JS, CSS Animations, Flexbox, Parallax, Google Maps, Social Media, SEO, Front End Optimization",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
