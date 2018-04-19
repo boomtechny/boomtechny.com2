@@ -37,7 +37,7 @@
                         {
                             "id": 2,
                             "title": "Front End Features",
-                            "information": ["- Developed reusable, presentational, and state driven  user interface components.", "- Utilized React Router", "- Programmed SVG Animations and assets, and implemented animated interactive and on scroll components.", "- Dynamically generated components based on JSON file data.", " - Responsive design utilizing CSS Grid, Flexbox, and Sass.", "Higher Order Components", "Image Zoom Modal Component", "- Front End Optimization", "- Made Use of SEO, Optimization, and Bundling features of React Static by Nozzle"]
+                            "information": ["- Developed reusable, presentational, and state driven  user interface components.", "- Utilized React Router", "- Programmed SVG Animations and assets, and implemented animated interactive and on scroll components.", "- Dynamically generated components based on JSON file data.", " - Responsive design utilizing CSS Grid, Flexbox, and Sass.", "- Higher Order Components", "- Image Zoom Modal Component", "- Front End Optimization", "- Made Use of SEO, Optimization, and Bundling features of React Static by Nozzle"]
                         },
                         {
                             "id": 3,
