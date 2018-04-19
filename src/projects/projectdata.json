@@ -769,7 +769,7 @@
             "services": ["FRONT END DEVELOPMENT", "WORDPRESS THEMES AND PLUGINS", "PHP, HTML5, CSS3, JAVASCRIPT"],
             "liveurl": "https://btwpstaging.000webhostapp.com/citadeluniversity/",
             "image": "citadel_preview.png",
-            "shortdescription": ["University Portal Site for students to login and view information about the university and take notes for courses from the browser", "Customize Page Banners", " - Custom Post Fields", " -Implementing Registration and Login", " - Google Maps API", "Note Taking and Social Functionality"],
+            "shortdescription": ["University Portal Site for students to login and view information about the university and take notes for courses from the browser", "- Customized Page Banners", " - Custom Post Fields", " - Implementing Registration and Login", " - Google Maps API", "- Note Taking and Social Functionality"],
             "techKeywords": "HTML5, CSS3, Wordpress, PHP, Bootstrap, Docker",
             "externallinks": [{
                 "id": 1,
