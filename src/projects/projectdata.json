@@ -651,7 +651,7 @@
             "liveurl": "https://btwpstaging.000webhostapp.com/ninjaramen/",
             "image": "ninjaramen_preview.png",
             "shortdescription": ["Restaurant Site for Ninja Ramen", "- Options Settings Page", " - Custom Post Fields", " - Admin Reservation Management", " - Geolocation"],
-            "techKeywords": "HTML5, CSS3, Wordpress, PHP, Docker",
+            "techKeywords": "HTML5, CSS3, Wordpress, PHP, Docker, reCaptha",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
@@ -670,7 +670,7 @@
                         {
                             "id": 2,
                             "title": "Process",
-                            "information": ["- Required integrated support for storing, updating, and editing user reservations from Administrator Page", "- Options Settings for Google Maps API integrated on Site", "- reCaptcha implementation", "-Theme Customizations", "Social Media Menu", "Custom Post Types Specialty Menu", "- Custom Post Fields for Pricing", "-Blog Widgets", "- Responsive Design and Navigation", "- Interactive Menu Elements using Animations"]
+                            "information": ["- Required integrated support for storing, updating, and editing user reservations from Administrator Page", "- Options Settings for Google Maps API integrated on Site", "- reCaptcha implementation", "- Theme Customizations", "- Social Media Menu", "- Custom Post Types Specialty Menu", "- Custom Post Fields for Pricing", "- Blog Widgets", "- Responsive Design and Navigation", "- Interactive Menu Elements using Animations"]
                         }
                     ]
                 },
