@@ -1249,8 +1249,8 @@
         },
         {
             "id": 15,
-            "title": "Employee Manager - Android, iOS",
-            "services": ["Mobile Application Development", "REACT NATIVE, REDUX, JAVASCRIPT", "FIREBASE"],
+            "title": "Employee Manager" ,
+            "services": ["Mobile Application Development", "REACT NATIVE, REDUX, JAVASCRIPT", "Android, iOS, FIREBASE"],
             "liveurl": "https://github.com/boomtechny/BT-ManagerApp",
             "image": "managerapp_preview.png",
             "shortdescription": ["Employee management mobile application for managers or employees to login, view, or edit work shift schedules", "Reusable components", "- Asynchronous communication to Firebase API", "Redux state management", "- React Router", "- Responsive Styled Components", "- Date and Time Picker Components"],
@@ -1317,8 +1317,8 @@
         },
         {
             "id": 16,
-            "title": "Login Authorization - Android, iOS",
-            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE, REDUX", "FIREBASE"],
+            "title": "Login Authorization",
+            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE, REDUX", "FIREBASE", "Android, iOS"],
             "liveurl": "https://github.com/boomtechny/BT-ReactNative-AuthApp",
             "image": "authapp_preview.png",
             "shortdescription": ["Implementation of User Login Authorization utilizing Firebase API",
@@ -1386,8 +1386,8 @@
         },
         {
             "id": 17,
-            "title": "Album List - Android, iOS",
-            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE", "Javascript"],
+            "title": "Album List",
+            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE", "Javascript", "Android, iOS"],
             "liveurl": "https://github.com/boomtechny/BT-ReactNative-AlbumApp",
             "image": "albumapp_preview.png",
             "shortdescription": ["React Native mobile application to view listing of albums and be directed to Amazon site to purchase the album", "- Responsive component design", "- Programmed reusable components"],
@@ -1498,7 +1498,7 @@
         },
         {
             "id": 19,
-            "title": "Match-Up - Android, iOS",
+            "title": "Match-Up",
             "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE, REDUX, FIREBASE", "GRAPHIC DESIGN"],
             "liveurl": "https://www.boomtechny.com",
             "image": "matchup.png",

@@ -72,6 +72,11 @@ formatInfo(shorttext,uniqueid){
     return(
       <div className = {`card_wrapper ` + newClass} ref={(node) => {this.cardWrapper = node}}>
       <div className = "card_wrapper__background" type="">
+      <div className = "card_wrapper__header">
+      <div className = "card_project__title" > 
+      <h4>{this.props.titlehead}</h4>
+      </div>
+      <div class = "button_wrapper">
       <button className = "social-media__icon" onClick={this.handleClick}><svg viewBox="8 8 50 50" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Layer 1</title>
@@ -79,8 +84,8 @@ formatInfo(shorttext,uniqueid){
   <polygon stroke="#de6705" fill="#de6705" points="19.300000190734863,30.600006103515625 44.70000076293945,30.600006103515625 44.70000076293945,33.399993896484375 19.300000190734863,33.399993896484375 " id="Fill-39" class="st0"/>
   <polygon stroke="#de6705" fill="#de6705" points="30.59999990463257,19.29998779296875 33.40000009536743,19.29998779296875 33.40000009536743,44.69999694824219 30.59999990463257,44.69999694824219 " id="Fill-40" class="st0"/>
  </g>
-</svg></button>
-
+</svg></button></div>
+</div>
         <div className = "card_wrapper__title" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut}>
         <div className = {`card_keyinfo ` + toggleClass}  >
        <div className = "card_keyinfo_wrapper">{this.parseInfo(this.props.keyinfo)}</div> 

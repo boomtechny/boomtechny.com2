@@ -118,8 +118,8 @@ formatIt(textinfo, mykey){
     return(
       
       <div className = "project_header__wrapper">
- 
 <div className = "project__grid">
+
    <div className = "project_image__wrapper">
       <div className ="project__image">
       <a className = "card_livelink" href = {this.props.livelink}/>
@@ -129,7 +129,8 @@ formatIt(textinfo, mykey){
       </div>
       </div>
   <div className = "project_brief__wrapper">
-
+<div className="project__title_wrapper">
+ <h4>{this.props.project_title}</h4></div>
   <div className = "project_service__wrapper">
 <span className ="project_service__grid">
 <div className ="project_service__decorator">
