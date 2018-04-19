@@ -9,18 +9,26 @@ class Profile_Loadout_Card_Text_Additional extends React.Component{
     this.state = {}; 
     //this._setMessage = this._setMessage.bind(this); 
   }
+formatText(text,textkeyid){
+  return ( <div className="details__additional_wrapper"><div className="details__additional_decorator">
+     <object className="additional__decorator" data={Decorator_Square}/>
+     </div>
+
+     <div className="details__additional_text"> <h6 key={textkeyid} >{text}</h6></div></div>)
+}
+getInfo(texts){
+  let textkey = 1;
+  return texts.map(this.formatText, textkey);  
+}
+
   render(){
     return(
     
    
-<div className="details__additional_wrapper">
-     <div className="details__additional_decorator">
-     <object className="additional__decorator" data={Decorator_Square}/>
-     </div>
 
      <div className="details__additional_text"> 
-     <h6>{this.props.text}</h6>
-     </div>
+     {this.getInfo(this.props.text)}
+     
 </div>
     
 

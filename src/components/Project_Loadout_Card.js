@@ -7,6 +7,14 @@ class Project_Loadout_Card extends React.Component{
     this.state = {}; 
     //this._setMessage = this._setMessage.bind(this); 
   }
+formatloadOutInfo(shorttext,uniqueid){
+  return <p key = {uniqueid} className = "loadoutcard_text">{shorttext}</p>
+}
+    loadOutInfo(shorttexts){
+      let key = 1; 
+      return shorttexts.map(this.formatloadOutInfo,key); 
+    }
+
   render(){
     return(
       <div className="loadoutcard__wrapper">
@@ -19,7 +27,7 @@ class Project_Loadout_Card extends React.Component{
      <div className="loadoutcard__blocktext"> 
      
      
-     {this.props.blocktext}
+     {this.loadOutInfo(this.props.blocktext)}
 </div>
      </div>
 

@@ -1,17 +1,23 @@
 .hero-cta{
- display:grid; 
- grid-template-columns:1fr 1fr 1fr;  
+ display:flex;
+  flex-direction:row;
+margin-top:1rem;
+width:100%; 
+justify-content:center; 
  @media(max-width:$breakpoint-mobile-x){
- margin-top:-2rem;
+font-size:1.25rem; 
+padding-left:.4rem;
+padding-right:.4rem; 
 }
-
 }
 .hero-cta button{
-grid-column: 3; 
-justify-self:start; 
+display:flex;
+margin-left:1rem; 
+margin-right:1rem; 
+ 
 
 @media(max-width:$breakpoint-desktop-x) and (max-width:$breakpoint-mobile) and (min-width:$breakpoint-mobile){
-grid-column:2; 
+
 margin-top:2rem;
 margin-bottom:2rem;
 -webkit-box-pack:center;
@@ -24,7 +30,7 @@ justify-self:center;
 }
 
 @media(max-width:$breakpoint-tablet){
-  grid-column:2;
+
 
   margin-bottom:3rem;
 }
@@ -35,7 +41,7 @@ justify-self:center;
       }
       @media(max-width:$breakpoint-mobile){
       
-        margin-top:-6rem;
+        
           
             }
 
@@ -50,6 +56,7 @@ justify-self:center;
 .hero__indicator_scroll{
  display:-webkit-box;
  display:-ms-flexbox;
+ margin-top:1rem;
  display:flex; 
  -webkit-box-pack: center; 
      -ms-flex-pack: center; 

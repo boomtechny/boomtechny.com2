@@ -46,6 +46,15 @@ handleMouseOut(){
     let uniqueid = 1; 
     return services.map(this.setServiceTag, uniqueid); 
     }
+
+formatInfo(shorttext,uniqueid){
+  return <p key = {uniqueid} className = "card_keyinfo__text">{shorttext}</p>
+}
+    parseInfo(shorttexts){
+      let key = 1; 
+      return shorttexts.map(this.formatInfo,key); 
+    }
+
   
     
   render(){
@@ -57,6 +66,7 @@ handleMouseOut(){
   //console.log(this.props.animationstate);
     let newClass = isInView ? '--revealcard' : '--hiddencard';
     let imagesource = require('../assets/images/' + this.props.titleimg); 
+
     let toggleClass = this.state.toggleKeyInfo ? 'hide': 'show'; 
 
     return(
@@ -73,12 +83,14 @@ handleMouseOut(){
 
         <div className = "card_wrapper__title" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut}>
         <div className = {`card_keyinfo ` + toggleClass}  >
-        <p className="card_keyinfo__text">{this.props.keyinfo} </p>
+       <div className = "card_keyinfo_wrapper">{this.parseInfo(this.props.keyinfo)}</div> 
         </div>
         {/*{this.props.titlehead}*/}
 <a className = "card_livelink" href={this.props.livelink}></a>
-          <object className = "title" data={imagesource} type="image/svg+xml">
-          </object>
+<div className = "card_imagewrapper">
+          <img className = "title" src={imagesource} 
+         />
+          </div>
         </div>
       <div className = "card_wrapper__services">
           <object className = "services__display_icon" data={DotPointerImg} type="image/svg+xml">

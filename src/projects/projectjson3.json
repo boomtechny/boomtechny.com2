@@ -1,0 +1,40 @@
+{
+            "id": 5,
+            "title": "Find Your Ink",
+            "services": [
+                "FRONT END DEVELOPMENT",
+                "WORDPRESS THEMES AND PLUGINS", 
+                "HTML5, CSS3, JAVASCRIPT", 
+            ],
+            "liveurl": "http://findyourink.atwebpages.com/",
+            "image": "pizzatime_preview.png",
+            "shortdescription": ["Site for Client to preview current tattoo directory site design using MyListing Theme and Features", " - Video Background Header", " - MyListing Child Theme"," - Woocommerce"],
+            "techKeywords": "HTML5, CSS3, Wordpress, Woocommerce",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url": null,
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "Custom dynamic wordpress theme for Twitch channel host with extended features for advertisments, logo customizations, "
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Since the client was an active twitch host and had a robust collection of video game related video "
+                    }
+                ]
+            }]
+
+        }
+
+
+
+            

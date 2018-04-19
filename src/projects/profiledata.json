@@ -13,7 +13,7 @@
         "details":[{
           "detailid":1,
           "detailTitle": "Background", 
-          "detailAddtl":"A developer and graphic designer with full stack capabilities from an engineering and IT background with an explosive passion for the ever growing field of technology. As BoomTech I take on a variety of projects to further advance my skill set and experience without limitation. Currently operating in Brooklyn, NY."
+          "detailAddtl":["A front end developer with graphic design and full stack capabilities from an engineering and IT background with an explosive passion for the ever growing field of technology. As BoomTech I take on a variety of projects to further advance my skill set and experience without limitation. Currently operating in Brooklyn, NY."]
           }]
         },
       {
@@ -22,229 +22,256 @@
         "details":[{
           "detailid": 1,
           "detailTitle": "Front End Development",
-          "detailAddtl":"HTML, CSS, JS, React, Redux, React Native, SASS, Angular, Ionic 3, Rails, Wordpress, Bootstrap, Flexbox, CSSGrid, TDD, UX Workflows, UI Prototyping, Webpack" 
+          "detailAddtl":["HTML5, CSS3, JS, React, Redux, React Native, Sass, Angular, Ionic 3, Rails, Wordpress, Bootstrap, Flexbox, CSSGrid, TDD, UX Workflows, UI Prototyping, Webpack" ]
           },
           {
           "detailid": 3,
           "detailTitle":"Back End Development", 
-          "detailAddtl":"Node, Express, PHP, Python,  MySQL, Firebase, MongoDB, PostgresSQL, AJAX, JSON, XML"
+          "detailAddtl":["Node, Express, PHP, Python,  MySQL, Firebase, MongoDB, PostgresSQL, AJAX, JSON, XML"]
           }, 
           {
           "detailid": 4, 
           "detailTitle":"Graphic Design",
-          "detailAddtl":"Adobe XD, Adobe Illustrator, Adobe After Effects, Adobe Photoshop, Sketch, SVG, Prototyping, Wireframing, Mockups, Brand Identity, Motion Design, Print Design, Typography" 
+          "detailAddtl":["Adobe XD, Adobe Illustrator, Adobe After Effects, Adobe Photoshop, Sketch, SVG, Prototyping, Wireframing, Mockups, Brand Identity, Motion Design, Print Design, Typography" ]
          }
         ] 
         },
         {
-        "id":3,
+        "id":2,
         "categoryTitle":"Overview",
         "details":[{
           "detailid":1, 
           "detailTitle": "Background",
-          "detailAddtl": "An eager developer and graphic designer with full stack capabilities from an engineering and IT background, with an explosive passion for the ever growing field of technology. As BoomTech I take on a variety of projects to further advance my skill set and experience without limitation. Currently operating in Brooklyn, NY and fully capable to take on remote work." 
+          "detailAddtl": ["An eager front end developer with graphic design and full stack capabilities from an engineering and IT background, with an explosive passion for the ever growing field of technology. As BoomTech I take on a variety of projects to further advance my skill set and experience without limitation. Currently operating in Brooklyn, NY and fully capable to take on remote work." ]
           }]
         },
         {
-          "id":4, 
-          "categoryTitle":"Future", 
-          "details":[
-            {
-              "detailid":1, 
-              "detailTitle":"Career Objective", 
-              "detailAddtl": "I would like to continue to advance my experience in the development field and continuosly work with many clients on a variety of products to gain greater insight of the needs in the market. I would like to one day combine my skillsets in leading teams through full product development workflow. I would like to lead with the foresight for scheduling, UX, testing, user interface design, server side structure, embedded systems needs, and network communication integrations to efficiently deliver an optimal product to maximize profit for clients and the users of their product."
-            }
-          ]
-        },
-        {
-          "id":5, 
-          "categoryTitle":"Development Skills and Experience", 
+          "id":3, 
+          "categoryTitle":"Development Skills Stack", 
           "details":[{
             "detailid":1, 
             "detailTitle":"Languages", 
-            "detailAddtl":"HTML, JS, CSS, PHP, Python, C++, Java, C#, Ruby "
-            
-          },
+            "detailAddtl":["HTML5, Javascript, CSS3, PHP, Python, C++, Java, C#, Ruby "
+            ]},
           {
             "detailid":2, 
             "detailTitle":"Development", 
-            "detailAddtl":"React, Redux, React Native, Node JS, JQuery, Express, Apache, NGINX, Django, Angular, Ionic, Rails, Meteor, ASP.NET"
+            "detailAddtl":["React, Redux, React Native, Node JS, JQuery, Express, Apache, NGINX, Django, Angular, Ionic, Rails, Meteor, ASP.NET"]
           }, 
             {
               "detailid":3, 
               "detailTitle":"Data", 
-              "detailAddtl":"Firebase, MySQL, MongoDB, CouchDB, PouchDB, AWS Dynamo DB and AppSync, XML, JSON"
+              "detailAddtl":["Firebase, MySQL, MongoDB, CouchDB, PouchDB, AWS Dynamo DB and AppSync, XML, JSON"]
             }, 
             {
               "detailid":4, 
               "detailTitle":"Wordpress",
-              "detailAddtl":"Custom Theme Development, API Integration, Plugin Development, SEO, Documentation"
+              "detailAddtl":["Custom Theme Development, API Integration, Plugin Development, SEO, Documentation"]
             }, 
             {
               "detailid":5, 
               "detailTitle":"Testing", 
-              "detailAddtl": "Mocha, Enzyme, Selenium, Jest, Chai, Cucumber"
+              "detailAddtl":[ "Browser Developer Tools, Mocha, Enzyme, Selenium, Jest, Chai, Cucumber"]
             },
             {
               "detailid":6, 
-              "detailTitle":"UI Design", 
-              "detailAddtl":"BEM, Responsive Design, CSS Grid, Flexbox, SASS, Style Components, Bootstrap, Material Design, Nativebase"
+              "detailTitle":"User Interface Component Styling", 
+              "detailAddtl":["BEM, Responsive Design, CSS Grid, Flexbox, SASS, Style Components, Bootstrap, Material Design, Nativebase"]
             }, 
-          
-
             {
               "detailid":7, 
               "detailTitle":"API and Integrations", 
-              "detailAddtl":"Twitch, Youtube, Spotify, Woocommerce, Stripe, Shopify"
+              "detailAddtl":["Twitch, Youtube, Spotify, Woocommerce, Stripe"]
             }, 
               {
                 "detailid":8, 
                 "detailTitle":"Methodologies", 
-                "detailAddtl":"Functional, Prototypal Inheritance, OOP"
+                "detailAddtl":["Functional, Prototypal Inheritance, OOP"]
               }, 
               {
                 "detailid":9, 
                 "detailTitle":"Development / Production Tools", 
-                "detailAddtl":"Github, Docker, Travis CI, Jenkins, Webpack, Gulp, NPM, Yarn, Babel, ESLint, Babel, ESLint, Postman"
+                "detailAddtl":["Github, Docker, Travis CI, Jenkins, Webpack, Gulp, NPM, Yarn, Babel, ESLint, Babel, ESLint, Postman"]
               }, 
                {
                  "detailid":10, 
                  "detailTitle": "IDE", 
-                 "detailAddtl":"Visual Studio Code, Sublime Text 3, Xcode, Android Studio"
+                 "detailAddtl":["Visual Studio Code, Sublime Text 3, Xcode, Android Studio"]
                }, 
                 {
                   "detailid":11, 
                   "detailTitle":"Terminal", 
-                  "detailAddtl":"UNIX Bash, Powershell, Brew"
+                  "detailAddtl":["UNIX Bash, Powershell, Brew"]
                 },
                 {
                   "detailid":12, 
                   "detailTitle":"Static Site Development", 
-                  "detailAddtl":"React Static Nozzle (React) and Middleman(Rails)"
+                  "detailAddtl":["React Static Nozzle (React) and Middleman(Rails)"]
                 }, 
                 {
                   "detailid":13, 
                   "detailTitle":"Animation", 
-                  "detailAddtl":"D3, SVG, CSSTransistionGroup, GSAP, Canvas"
+                  "detailAddtl":["D3, SVG, CSSTransistionGroup, GSAP, Canvas"]
                 }, 
                   {
                     "detailid":14, 
                     "detailTitle":"Agile and Collaboration", 
-                    "detailAddtl": "Scrum, XD, Kanban, Trello, Slack"
+                    "detailAddtl":["Scrum, XD, Kanban, Trello, Slack"]
                   }  
           ]
         }, 
+        {
+          "id":4, 
+          "categoryTitle":"Objectives", 
+          "details":[
+            {
+              "detailid":1, 
+              "detailTitle":"Current Career Objective", 
+              "detailAddtl":[ "To fill roles as front end developer. Would like to find companies that can further advance my current skillset and developing a greater mastery of industry best practices."]
+            },
+            {
+              "detailid":2, 
+              "detailTitle":"Long Term", 
+              "detailAddtl": ["I would like to continue to advance my experience in the development field and continuosly work with many clients on a variety of products to gain greater insight of the needs in the market.", "To one day combine my skillsets and accumulate enough income to form teams to lead through full product development workflows. Perhaps as Chief of iOT to return to my original background in hardware engineering", "To lead with the foresight for scheduling, UX, testing, UI, server side structure, embedded systems needs, and network communication integrations to efficiently deliver an optimal product to maximize profit for clients and the users of their product."]
+            }
+          ]
+        },
+        {"id":5,
+        "categoryTitle":"Front End Developer",
+        "details":[{
+          "detailid":1, 
+          "detailTitle": "Experience",
+          "detailAddtl": ["Utilized HTML5 features including: Video, Audio, Geolocation,  File, Media Features, Figure Elements, Navigation,  Web workers, Form features, SVG Elements, Semantic Elements", "Implemented Search Engine Optimization", "Performed Front End Optimization with minification and analytic tools,", "Utilized Javascript to implement functionality and create dynamic interactive user interface components", "Coded SVG Animations", "Studied and implemented trending intuitive design features such as Parallax effects, Image Zoom, Modals, Tooltips, Carousel, and Slideshow Galleries", "Make use of Bootstrap or my own Style libraries to quickly create prototype static sites", "Utilized CSS Grid and Flexbox to implement responsive design", "Created responsive email templates utilizing HTML Tables, CSS, and cross platform testing tools, such as Get Response and Litmus", "Created living style guides utilizing Sass to assist in brand consistency in code", "Prepared coded hi-fidelity prototypes that can be used for developer testing", "Translated provided graphic design material into functional code.", "Leveraged Browser Developer Tools to test and troubleshoot code", "Prepared spreadsheets and documentation to assist in organizing feature implementations", "Experience using Github in everyday workflow" ]
+          }, 
+          {
+          "detailid":2, 
+          "detailTitle": "Wordpress",
+          "detailAddtl": ["Built Wordpress sites, using custom themes and plugins", "Experience with working with popular themes and plugins including integration and refactoring", "Strategized and developed custom fields, page templates, and custom type types","Programmed custom login pages", "Integrated support administrative workflows such as editing databases or using API features", "Created plugins based on client specifications", "Integrated Woocommerce and created supporting themes and features","Utilized Docker to Test and Stage Wordpress to prepare for Production", "Migrated SQL Databases and Front End to Live Sites"  ]
+          }, 
+          {
+          "detailid":3, 
+          "detailTitle": "React",
+          "detailAddtl": [ "Developed reusable component libraries and client side functionality leveraging React", 
+          "Utilized Redux to manage state driven components", "Experience using test-driven application development specifically Selenium, Mocha, Jest, and Chai", "Implemented asynchronous communication to API endpoints utilizing Async Await, Fetch, and Promises", "Coded dynamically generated components based on JSON data","Worked extensively with React Component lifecycle", "Worked with latest React Router version", "Coded Chart using D3 and React components","Developed higher order components to extend functionality to components when necessary", "Leveraged Webpack, NPM, and Yarn for tasks and development workflow" ] 
+          
+        }]},
         { 
-          "id":5, 
-          "categoryTitle":"Graphic Design Skills and Experience", 
+          "id":6, 
+          "categoryTitle":"Other Relevant Experience - Graphic Design Skills and Experience", 
           "details":[
             {
               "detailid":1, 
               "detailTitle":"Design Tools", 
-              "detailAddtl":"Adobe Illustrator, Adobe XD, Balsamiq, Sketch, Adobe Photoshop, Adobe After Effects"
+              "detailAddtl":["Adobe Illustrator, Adobe XD, Balsamiq, Sketch, Adobe Photoshop, Adobe After Effects", "I often use these tool also in development workflow to supplement creation of assets for coded prototypes, especially when a graphic designer is unavailable."]
             },
             {
             "detailid":2, 
             "detailTitle":"Web and Mobile Design", 
-            "detailAddtl":"Wireframing and Hi-Fidelity Prototyping"
+            "detailAddtl":["Wireframing and Coded Hi-Fidelity Prototyping"]
             }, 
             {
               "detailid":3, 
               "detailTitle":"Brand Identity", 
-              "detailAddtl": "Prepare Logos, Usage Guides, Mockups, Styleguides, Typography, Color Schemes, and other Marketing Materials"
+              "detailAddtl": ["Prepare Assets for Front End, Logos, Usage Guides, Mockups, Styleguides, Typography, Color Schemes, and other Marketing Materials"]
             }
           ]
         }, 
         {
-          "id":6, 
-          "categoryTitle":"Hardware Design Skills and Experience", 
+          "id":7, 
+          "categoryTitle":"Other Technical Experience - Hardware Design Skills and Experience", 
           "details":[
             {
               "detailid":1, 
               "detailTitle":"PCB Design",
-              "detailAddtl":"PCB Design prepared utilizing Altium Designer ready for PCB Manufacturer. I would also provide bill of materials, footprint libraries, and essential documentation. The PCB design process would also include researching and select parts that would meet product specifications."
+              "detailAddtl":["PCB Design prepared utilizing Altium Designer ready for PCB Manufacturer. I would also provide bill of materials, footprint libraries, and essential documentation. The PCB design process would also include researching and select parts that would meet product specifications."]
             },
              {
                "detailid":2, 
                "detailTitle":"Prototyping", 
-               "detailAddtl":"Arduino and RasberryPi"
+               "detailAddtl":["Arduino and RasberryPi"]
              },
              {
                "detailid":3, 
                "detailTitle":"Modeling", 
-               "detailAddtl":"Able to provide CAD Designs utilizing Solidworks for demonstration. Also able to prepare CAD models ready for 3D printing"
+               "detailAddtl":["Able to provide CAD Designs utilizing Solidworks for demonstration. Also able to prepare CAD models ready for 3D printing"]
              }, 
              {
                "detailid":4, 
                "detailTitle":"Communication Integration", 
-               "detailAddtl":"BLE, Serial, Wifi"
+               "detailAddtl":["BLE, Serial, Wifi"]
              }
 
           ]
         }, 
         {
-          "id":7, 
+          "id":8, 
           "categoryTitle":"Education", 
           "details":[
             {
               "detailid":1, 
               "detailTitle":"Bachelor of Science in Electrical Engineering and Technology, August 2012", 
-              "detailAddtl":"Coursework included Digital Signal Processing, Computer Architecture, Java, C++, Microprocessors, and Engineering Design"
+              "detailAddtl":["Coursework included Digital Signal Processing, Computer Architecture, Java, C++, Microprocessors, and Engineering Design"]
             }
             
           ]
         }, 
         {
-          "id":8,
+          "id":9,
           "categoryTitle":"Traits",
           "details":[
             {
               "detailid":1, 
               "detailTitle":"Personal Skills", 
-              "detailAddtl":"Communicative, Excellent Written Skills, Motivated, Quick to learn and implement new toolsets , Always learning , Open to Collaboration,  Organized,  Diligent , Meticulous"
+              "detailAddtl":["Communicative, Excellent Written Skills, Motivated, Quick to learn and implement new toolsets , Always learning , Open to Collaboration,  Organized,  Diligent , Meticulous"]
             }
             
           ]
         }, 
         {
-          "id":9, 
+          "id":10, 
           "categoryTitle":"Life Insight", 
           "details":[
             {
-              "detailid":1, 
-              "detailTitle":"Interests and Hobbies",
-              "detailAddtl":"I have a great passion for practicing martial arts and fitness. I have an eclectic taste for music including an interest in collecting records and practicing the art of DJing. I like to relax and enjoy playing table top with friends. I recently have been enthralled by Warhammer and plan to hopefully build and paint my own army. I have a short term goal set to build a sileighty conversion Nissan. At home I love to experiment in the kitchen, and read, while also in constant workflow with my own personal projects. "
+               "detailid":3, 
+              "detailTitle":"My Passion for my Career is My Life",
+              "detailAddtl":["I enjoy receiving ideas for projects and hacking away at them to stay sharp in my skillsets, and to continue to find more aspects to learn", "I enjoy reseaching latest technologies and trends I may expect to have to perform", "I try to commit to Github every day, and recently have started to add to my Stack Overflow reputation to contribute back to the community"]
+            },
+            {
+              "detailid":2, 
+              "detailTitle":"Other Interests and Hobbies",
+              "detailAddtl":["Great passion for practicing martial arts and fitness since I was raised in a Bruce Lee fan household", "Video game enthusiast","I have an eclectic taste for music including an interest in collecting records and practicing the art of DJing.", "I like to relax and enjoy playing tabletop type games with friends. I recently have been enthralled by Warhammer and plan to hopefully build and paint my own army", "I have a short term goal set to build a sileighty conversion Nissan. At home I love to experiment in the kitchen, and read, while also in constant workflow with my own personal projects. "]
             }
           ]
         }, 
+
         {
-          "id":10, 
-          "categoryTitle":"Client Workflow", 
+          "id":11, 
+          "categoryTitle":"Freelance Client Workflow", 
           "details":[
             {
               "detailid":1, 
               "detailTitle":"Client Discussion", 
-              "detailAddtl":"My workflow is generally similar for requests whether development or graphic design. When first contacted I may provide a client with a form to gather some information about the project, with which we can then follow up and discuss by meetup, phone, email, or Skype. I like to gather enough information so that I may properly outline specifications and strategize a plan to stay within budget of the client, while being able to delivery a minimum viable product within reasonable time frames. If the client requests a graphic design we would plan out iteration of deliverables. I am willing to sign Non-Disclosure Agreements. I am completely open to working with a team already onboard and adapt to their workflow."
+              "detailAddtl":["Outline Project Scope, Reasonable Time Frames, and Budget","Communication via meetup, phone, email or Skype", "Plan iteration of deliverables","Willing to sign Non-Disclosure Agreements.","I am completely open to working with a team already onboard and adapt to their workflow."]
             },
             {
               "detailid":2, 
               "detailTitle":"Discovery", 
-              "detailAddtl":"Projects require gathering enough research to move forward including competing products in the current market, outlining user stories, content strategy. I like to share with clients some work that may better provide focus for the product. Wireframing would typically be performed which would result in outlining the core features of the product and its user acceptance tests to begin prototyping. We would also come up with a solid structure for the product, while keeping scaling in mind."
+              "detailAddtl":["Projects require gathering enough research to move forward including competing products in the current market, outlining user stories, content strategy. I like to share with clients some work that may better provide focus for the product. Wireframing would typically be performed which would result in outlining the core features of the product and its user acceptance tests to begin prototyping. We would also come up with a solid structure for the product, while keeping scaling in mind."]
             }, 
             {
               "detailid":3, 
               "detailTitle":"Prototyping and Development", 
-              "detailAddtl": "With the features and core strategy in place prototyping is underway and the client would receive hi-fidelity designs. A client requesting an application design would receive rendered user Flow videos and minimum viable products."
+              "detailAddtl": ["Create living style guides", "Coded Lo to Hi-Fidelity Design Prototypes", "Fully functional front end allowing for testing"]
             }, 
             {
               "detailid":4, 
-              "detailTitle":"Testing", 
-              "detailAddtl":"Attacking the features would not begin without testing in mind which will also be helpful when the product is in production. Testing communication between the product and its User acceptance tests are also performed, as well as cross browser testing."
+              "detailTitle":"QA Testing", 
+              "detailAddtl":["User Acceptance Tests", "SEO and Front End Optimization","Cross browser testing."]
             }, 
             {
               "detailid":5, 
               "detailTitle":"Delivery", 
-              "detailAddtl":"Clients would be provided with proper documentation to cover core functionality. We can also outline how to move forward with maintanence strategy and deployment. I am open to performing refactoring of anything I have implemented to meet any new specifications."
+              "detailAddtl":["Clients would be provided with proper documentation to cover core functionality. We can also outline how to move forward with maintanence strategy and deployment. I am open to performing refactoring of anything I have implemented to meet any new specifications."]
             }
             
           ]

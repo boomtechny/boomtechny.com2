@@ -137,6 +137,7 @@ requestAnimationFrame(()=>{this.setState({hudReveal:true});
       key={project.id} source={project.externallinks[0].url}
       liveurl={project.liveurl} 
         key={project.id}
+        keyinfo={project.shortdescription}
         titlehead={project.title}
         services={project.services}
         titleimg={project.image}

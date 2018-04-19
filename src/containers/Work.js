@@ -19,14 +19,24 @@ class Work extends React.Component{
     //this._setMessage = this._setMessage.bind(this); 
     
   }
-  createProjectCards(projects){
-    //change to map only the first 3 projects 
-  //console.log(animState);
+ createProjectCards(projects) {
+    //change to map only the first 3 projects
+    //console.log(animState);
     let index = 0;
-    
-    return projects.map((project,index) => <Project_Card key={project.id} source={project.externallinks[0].url}   keyinfo={project.shortdescription}
-      liveurl={project.liveurl} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {this.state.cardReveal} animDelay={((index*0.5)+1)+'s'}/>); 
-    
+    let cardsize = 19;
+    return projects.slice(0, cardsize).map((project, index) => (
+        <Project_Card
+          key={project.id} source={project.externallinks[0].url}
+          livelink={project.liveurl} 
+          titlehead={project.title}
+          services={project.services}
+          keyinfo={project.shortdescription}
+          titleimg={project.image}
+          id={project.id}
+          animationstate={this.state.cardReveal}
+          animDelay={index * 0.5 + 1 + "s"}
+        />
+      ));
   }
   
   makeProjectCard(project,index){
@@ -34,8 +44,8 @@ class Work extends React.Component{
 //console.log('entered');
   //console.log(project);
  
-    return <Project_Card key={project.id} source={project.externallinks[0].url}
-      liveurl={project.liveurl} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {false} animDelay={index*0.5+'s'}/>;
+    return <Project_Card key={project.id} source={project.externallinks[0].url} keyinfo={project.shortdescription}
+      livelink={project.liveurl} titlehead={project.title} services={project.services} titleimg={project.image} id={project.id} animationstate = {false} animDelay={index*0.5+'s'}/>;
 
   }
 

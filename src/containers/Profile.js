@@ -34,7 +34,7 @@ import Profile_Loadout_Card_Additional from '../components/Profile_Loadout_Card_
     
     {if(details){
     return (details.map(detail=>
-    <div className="details" key={detail.id}><Profile_Loadout_Card_Text text={detail.detailTitle}/><Profile_Loadout_Card_Additional text={detail.detailAddtl}/> </div>))}
+    <div className="details" key={detail.id}><Profile_Loadout_Card_Text text={detail.detailTitle}/><Profile_Loadout_Card_Additional text={detail.detailAddtl} /> </div>))}
     }
       
     return (profile.loadouts.slice(loadoutstart).map((loadout)=>

@@ -11,10 +11,7 @@ class ButtonLink extends React.Component {
         //this._setMessage = this._setMessage.bind(this); 
     }
     render() {
-        return ( <
-            a href = { this.props.link } > < button className = "cta-button"
-            value = { this.props.value } > { this.props.label } <
-            /button></a >
+        return ( < a href = { this.props.href } > < button className ="cta-button" value = { this.props.value } > { this.props.label } </button></a >
             //TODO: replace cta-button with button, this can be used globally   
         )
     }

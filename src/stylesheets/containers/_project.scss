@@ -1,6 +1,6 @@
 .project_header__wrapper{
 
-  margin-top:4rem;
+  margin-top:2rem;
   margin-bottom:2rem; 
   @media(max-width:$breakpoint-tablet){
     margin-top:2rem;
@@ -13,6 +13,15 @@
   
 }
 
+.project_head_shortdescription{
+  margin-top:.25em !important; 
+  margin-bottom:.25em!important;
+  line-height:1.75; 
+  font-size:1.5rem; 
+     @media(max-width:$breakpoint-mobile-x){
+font-size:1.3rem; 
+  }
+}
 .project_image__wrapper{
   position:relative; 
   display:-webkit-box;
@@ -55,12 +64,14 @@ width:75%;
 
 .project__image{
   
-width:75%;
+
 }
 .image__wrapper{
-min-height:30rem;
+width:100%; 
+height:auto; 
+align-self:center; 
 @media(max-width:$breakpoint-mobile-x){
-min-height:0;
+
 }
 }
 .project_brief__wrapper{
@@ -154,6 +165,10 @@ padding-left:4%;
   padding:.5rem;
   line-height:1.5rem;
   padding-left:0; 
+  font-size:1.75rem; 
+  @media(max-width:$breakpoint-mobile-x){
+font-size:1.5rem; 
+  }
 }
 
 .project_short_description_wrapper{
@@ -227,12 +242,12 @@ width:100%;
  
 
 font-family : Play;
-font-size : 2rem;
+font-size : 1.5rem;
 color : #D0DCE9;
 
-padding-top:2rem;
+padding-top:1.5rem;
 @media(max-width:$breakpoint-mobile-x){
-  font-size : 1.75rem;
+  font-size : 1.35rem;
 }
 }
 
@@ -397,6 +412,8 @@ height:100%;
 }
 .subsection_image__wrapper{
   margin-top:2rem; 
+  width:50%; 
+  align-self:center; 
 }
 
 
@@ -409,19 +426,23 @@ height:100%;
 }
 .project_content__wrapper .loadoutcard__blocktext{
   font-size:1.5rem;
+  width:80%; 
+  align-self: center; 
 }
 
-.loadoutcard__blocktext{
-
+.loadoutcard__blocktext p{
   font-family:Play; 
-  font-size:2rem; 
+  font-size:1.5rem; 
   color: rgb(208, 220, 233);
   line-height:3rem; 
   -ms-flex-item-align:center; 
       align-self:center;
-  text-align:center; 
-  padding:1rem; 
+  text-align:left; 
+  padding:.5rem; 
+
+  margin:0 !important; 
 }
+
 
 @-webkit-keyframes animation_hud_project{
   0%{
@@ -526,8 +547,17 @@ height:100%;
 .hero__indicator_scroll.project{
   margin-top:5rem; 
   @media(max-width:$breakpoint-tablet){
-margin-top:2rem;
+margin-top:1rem;
   }
   
 }
+.project__image__wrapper{
 
+  display:flex; 
+}
+
+
+.project .loadoutcard__wrapper{
+  width:75%; 
+  align-self:center; 
+}

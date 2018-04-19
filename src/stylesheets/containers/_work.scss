@@ -52,11 +52,13 @@
 }
 
 .work__background{
-grid-row:1/4;
+grid-row:1/max;
 height:100%; 
 
 
 }
+
+
 .work__title{
   padding-top:0; 
 }
@@ -75,7 +77,7 @@ height:100%;
 }
 
 .work__pattern{
-grid-row:1/4;
+grid-row:1/max;
 height:100%;
 
 
@@ -184,4 +186,21 @@ height:100%;
 
 .featured_work{
   padding-top:12em;
+}
+
+.featured_work  .section_container__background1{
+grid-row:1/5; 
+}
+
+.featured_work .section_container__pattern{
+grid-row:1/5; 
+}
+
+
+.featured_work .section__content_wrapper{
+grid-row:1/5; 
+}
+
+.featured_work .section_container__content{
+margin-top:12rem; 
 }

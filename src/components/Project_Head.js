@@ -105,6 +105,13 @@ let linkSet = svgLink.childNodes[0];
 //console.log(svgLocation); 
 
 }
+formatIt(textinfo, mykey){
+  return <p key = {mykey}className="project_head_shortdescription">{textinfo}</p>
+}
+    desc(textinfos){
+      let thatkey = 1; 
+      return textinfos.map(this.formatIt, thatkey); 
+    }
   render(){
 
   const index = 0; 
@@ -116,8 +123,9 @@ let linkSet = svgLink.childNodes[0];
    <div className = "project_image__wrapper">
       <div className ="project__image">
       <a className = "card_livelink" href = {this.props.livelink}/>
-      <object className = "image__wrapper" data={this.props.main_image} type="image/svg+xml">
-          </object>
+      <div className ="project__image__wrapper">
+      <img className = "image__wrapper" src={this.props.main_image} />
+       </div> 
       </div>
       </div>
   <div className = "project_brief__wrapper">
@@ -144,7 +152,7 @@ let linkSet = svgLink.childNodes[0];
       </object>
       </div>
       <div className="project_short_description__text">
-      {this.props.project_description}
+      {this.desc(this.props.project_description)}
       </div>
       </span>
       </div>

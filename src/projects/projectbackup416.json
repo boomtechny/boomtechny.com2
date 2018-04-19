@@ -1,0 +1,397 @@
+{
+    "projects": [
+
+        {
+            "id": 1,
+            "title": "BoomTech",
+            "services": [
+                "FRONT END DEVELOPMENT",
+                "REACT JAVASCRIPT",
+                "GRAPHIC DESIGN,"
+            ],
+            "liveurl": "https://www.boomtechny.com",
+            "image": "logo_bt.svg",
+            "shortdescription": "Personal portfolio static site built with React:
+            - Fully responsive design using Sass, CSS Grid, and Flexbox 
+            - Interactive User Interface
+            - Dynamically created components 
+            - SVG Animations
+            - Integration of data from JSON",
+            "techKeywords": "React, Static, Sass, Webpack, Yarn, CSSGrid, Flexbox, SVG, BEM, JSON",
+            "externallinks": [{
+                    "id": 1,
+                    "name": "Git",
+                    "svgref": "git",
+                    "image": "git-icon.svg",
+                    "url": "https://github.com/boomtechny"
+                },
+                {
+                    "id": 2,
+                    "name": "Behance",
+                    "svgref": "be",
+                    "image": "be-icon.svg",
+                    "url": "https://www.behance.net/boomtech"
+                }
+            ],
+            "sections": [{
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": "Design of my own brand and a platform for my brand. A site to share my skills, and experience, showcase my work, and for those interested to easily reach me. A convenient way for clients, future employers, and co-workers to get more insight about myself, beyond the resume."
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": "I wanted to create a brand design that I can have fun with and animate while expressing an explosive impact. It was unnecessary to use a robust backend to support a site that would consist of static content so I sought to find static site tooling that I can easily maintain. I also wanted to work with React and found React Static by Nozzle which made the adoption of React very seamless, as it used React and Webpack, which I was already implementing in my front-end workflow. I created a responsive logo and wordmark that I may use for print and web to promote the brand and platform, as well deliver a consistent and professional look, that conveyed my eagerness to get started on working on projects and the impact that I can make. I utilized SVG Animation to animate the logo and supporting assets on the site with responsive design in mind. I was able to tap into the core features of React to seamlessly implement the front end of the site and add my created assets."
+                        }
+
+                    ]
+                },
+                {
+                    "sectionid": 2,
+                    "sectiontitle": "Brand",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Logo Design",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "LOGO_DESIGN.png",
+                                "imagetitle": "Logo Design",
+                                "imagecaption": "Logo Design used by BoomTech Brand",
+                                "imageformat": "png"
+                            }]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Wordmark",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "WORDMARK.png",
+                                "imagetitle": "Wordmark",
+                                "imagecaption": "Boom Tech Wordmark",
+                                "imageformat": "png"
+                            }]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Color Scheme",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "COLOR_SCHEME.png",
+                                "imagetitle": "Color Scheme",
+                                "imagecaption": "Color Scheme for BoomTech Brand",
+                                "imageformat": "png"
+                            }]
+
+                        },
+
+                        {
+                            "id": 4,
+                            "title": "Typography",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "bt_typography.png",
+                                "imagetitle": "Typography",
+                                "imagecaption": "Typography used by BoomTech Brand",
+                                "imageformat": "png"
+                            }]
+
+                        },
+                        {
+                            "id": 5,
+                            "title": "Marketing",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "MARKETING.png",
+                                "imagetitle": "Marketing",
+                                "imagecaption": "Marketing material used by BoomTech Brand",
+                                "imageformat": "png"
+                            }]
+
+                        },
+                        {
+                            "id": 6,
+                            "title": "Marketing 2",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "MARKETING_2.png",
+                                "imagetitle": "More Marketing Material",
+                                "imagecaption": "Marketing Material used by BoomTech Brand",
+                                "imageformat": "png"
+                            }]
+
+                        },
+                        {
+                            "id": 7,
+                            "title": "Display Use",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "DISPLAY.png",
+                                "imagetitle": "Typography",
+                                "imagecaption": "Signage used by BoomTech Brand",
+                                "imageformat": "png"
+                            }]
+
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 3,
+                    "sectiontitle": "Web",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Desktop and Mobile",
+                            "images": [{
+                                "imageid": 1,
+                                "imagetype": "behance",
+                                "image": "WEB.png",
+                                "imagetitle": "Boomtech Home Page",
+                                "imagecaption": "Boomtech home page on Desktop and Mobile",
+                                "imageformat": "png"
+                            }]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Squad Up",
+            "services": [
+                "FRONT END DEVELOPMENT",
+                "HTML5, CSS3, JAVASCRIPT, JQUERY"
+            ],
+            "liveurl": "https://boomtechny.github.io/SquadUp/",
+            "image": "squadup_preview.png",
+            "shortdescription": "Marketing site for Fashion Brand Squad Up, who hosts pop up store events world wide.
+            - Responsive HTML5 Video Background Hero
+            - Parallax: backgrounds, and on scroll animations
+            - Subscription Form
+            - Responsive Vertical Menu
+            - Slideshow and Modal Images",
+            "techKeywords": "Wordpress, PHP, MySQL, Twitch API, Youtube API, Bootstrap",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url": "https://github.com/boomtechny/SquadUp"
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "Custom dynamic wordpress theme for Twich channel host with extended features for advertisments, logo customizations, "
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Since the client was an active twitch host and had a robust collection of video game related video "
+                    }
+                ]
+            }]
+        },
+         {
+            "id": 3,
+            "title": "Tozai Sake",
+            "services": [
+                "FRONT END DEVELOPMENT",
+                "HTML5, CSS3, JAVASCRIPT", 
+                "SEO, Front End Optimization"
+            ],
+            "liveurl":"https://boomtechny.github.io/TozaiSake/",
+            "image": "tozaisake_preview.png",
+            "shortdescription": "Single page site showcasing Tozai Sake Products
+            - Responsive full screen menu and fixed header
+            - Parallax: backgrounds, and on scroll animations
+            - Contact and Subscription Forms
+            - Interactive Product User Interface
+            - Fixed header
+            - Google Maps API Distribution List",
+            "techKeywords": "HTML5, CSS3, Vanilla JS, CSS Animations, Flexbox, Parallax, GoogleMaps, Social Media, SEO, Front End Optimization",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url": "https://github.com/boomtechny/TozaiSake"
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "Custom dynamic wordpress theme for Twitch channel host with extended features for advertisments, logo customizations, "
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Since the client was an active twitch host and had a robust collection of video game related video "
+                    }
+                ]
+            }]
+        },
+        {
+            "id": 4,
+            "title": "Pizza Time",
+            "services": [
+                "FRONT END DEVELOPMENT",
+                "HTML5, CSS3, JAVASCRIPT, JQuery", 
+                "SEO"
+            ],
+            "liveurl": "https://boomtechny.github.io/PizzaTime/",
+            "image": "pizzatime_preview.png",
+            "shortdescription": "Responsive Site for Pizza Time Delivery Application 
+            - Parallax: backgrounds, and on scroll animations
+            - Responsive Grid CSS  
+            - Contact Form 
+            - Interactive UI Components",
+            "techKeywords": "HTML5, CSS3, Vanilla JS, CSS Animations, SEO, Optimization",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url":"https://github.com/boomtechny/PizzaTime"
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "Custom dynamic wordpress theme for Twitch channel host with extended features for advertisments, logo customizations, "
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Since the client was an active twitch host and had a robust collection of video game related video "
+                    }
+                ]
+            }]
+
+        },
+        {
+            "id": 5,
+            "title": "Find Your Ink",
+            "services": [
+                "FRONT END DEVELOPMENT",
+                "WORDPRESS THEMES AND PLUGINS", 
+                "HTML5, CSS3, JAVASCRIPT", 
+            ],
+            "liveurl": "http://findyourink.atwebpages.com/",
+            "image": "pizzatime_preview.png",
+            "shortdescription": "Site for Client to preview current tattoo directory site design using MyListing Theme and Features  
+            - Video Background Header
+            - MyListing Child Theme  
+            - Woocommerce",
+            "techKeywords": "HTML5, CSS3, Wordpress, Woocommerce",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url": null,
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "Custom dynamic wordpress theme for Twitch channel host with extended features for advertisments, logo customizations, "
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Since the client was an active twitch host and had a robust collection of video game related video "
+                    }
+                ]
+            }]
+
+        },
+        {
+            "id": 20,
+            "title": "Beast1x5",
+            "services": [
+                "BRAND IDENTITY",
+                "WEB DEVELOPMENT",
+                "GRAPHIC DESIGN"
+            ],
+            "liveurl":"http://beast1x5.boomtechny.x10host.com/",
+            "image": "logo_beast1x52.svg",
+            "shortdescription": "Brand Material and Video Blog for Video Game Enthusiast",
+            "techKeywords": "Wordpress, PHP, MySQL, Twitch API, Youtube API, Bootstrap",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url":"https://github.com/boomtechny/BT-Channel"
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "Custom dynamic wordpress theme for Twich channel host with extended features for advertisments, logo customizations, Twitch status updates, and Twitch chat, and Youtube based post generation. Extended user specific features and brand elements via custom child theme. User also required promotional material to support the brand."
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Since the client was an active twitch host and had a robust collection of video game related video content available on his Youtube page, it was a core principle to seek to tie these two together on a single site. The scope of the project extended to supporting blog content since the client also is active in related hobbies, such as vaping, traveling to arcades in Japan, created music content, held a collection of video game material, and other personal content that would share the interets of the same audience. The current supported logo, was in need of refactor, and my first iteration to the site required a different approach that utilized Wordpress's features, as well as make it adoptable by other interested clients, or allow the client to scale his own in the future. I went about strategizing how content may be organized, easily edited, and updated, and what required dynamic elements.  planned how to best use the Youtube API, and implement communication between the site and the Twitch API endpoint for realtime status updates and chat accessibility.I also needed to recreate the brand and add a professional look to the channel host that would assist in generating a larger audience. I added Ad Space to the theme to in turn to generate revenue and in turn help keep the site active as users visited the site. Search Engine Optimization techniques were applied to further extend the reach for the site."
+                    }
+                ]
+            }]
+
+        },
+        {
+            "id": 19,
+            "title": "Match-up",
+            "services": [
+                "MOBILE DEVELOPMENT",
+                "GRAPHIC DESIGN",
+                "REACT NATIVE"
+            ],
+            "liveurl": "https://www.boomtechny.com",
+            "image": "matchup_2.svg",
+            "shortdescription": "Application for fighters and gym owners to conveniently find sparring partners and schedule sparring",
+            "techKeywords": "React Native, iOS, Android, Redux, Firebase, Python",
+            "externallinks": [{
+                "id": 1,
+                "name": "Git",
+                "svgref": "git",
+                "image": "git-icon.svg",
+                "url": "https://github.com/boomtechny/BT-Matchup"
+            }],
+            "sections": [{
+                "sectionid": 1,
+                "sectiontitle": "Overview",
+                "subsections": [{
+                        "id": 1,
+                        "title": "Brief",
+                        "information": "As a gym owner or a fighter the user would like to find sparring partners based on specific parameters and submit to the potential sparring partner a request to setup sparring"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Process",
+                        "information": "Utilized React Native and Redux to create a minium viable cross platform mobile application product. This involved first stategizing and establishing the core features necessary to meet the user criteria. I also had to methodically plan out user flow, by mapping out user stories, and establishing how to keep the experience simple and direct so that any user may install the app and get to fulfilling the task they sought out to do as seamless as possible. I also wanted to make sure users of the app can extend interest of using the app to other users. Scaling for future features of the app also had to be placed under consideration when planning how the user interface should work to prevent for updates extending the functionality of the app would not result in breaking other features. Another tenant of the project scope involved establishing how the app would be experienced by two different types of users. Users would need to query information about other users based on certain criteria, as well create and edit spar request forms sent to other others users. With these ideas in mind I planned out an optimal database strucutre necessary to delivery content to the UI. I decided to utilize Firebase to handle realtime data store as well as user authentication. Necessary image assets also had to be designed as well to support the user interface, so I went about creating a brand with supported typography, and color scheme that would suit the user interface."
+                    }
+                ]
+            }]
+        }
+    ]
+}
