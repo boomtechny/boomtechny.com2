@@ -14,7 +14,7 @@ class Contact_Form extends React.Component{
   render(){
     return(<div className = "contact_form__wrapper">
     <div className="contact__form">
-    <form action="http://formspree.io/boomtechny@gmail.com" method="post"> 
+    <form action="https://formspree.io/boomtechny@gmail.com" method="post"> 
      <input type ="text" name="contact_name" placeholder="Full Name *"  required/>
 
      <input type ="email" name = "_replyto" placeholder="Email *" pattern= "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
