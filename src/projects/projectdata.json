@@ -1,6 +1,5 @@
 {
-    "projects": [
-        {
+    "projects": [{
             "id": 1,
             "title": "BoomTech",
             "services": [
@@ -10,7 +9,7 @@
             ],
             "liveurl": "https://www.boomtechny.com",
             "image": "boomtech_preview.png",
-            "shortdescription": ["Personal portfolio static site built with React"," - Responsive design using Sass, CSSGrid, and Flexbox", "- Interactive User Interface", "- Dynamically created components", " - SVG Animations",  "- Integration of data from JSON"],
+            "shortdescription": ["Personal portfolio static site built with React", " - Responsive design using Sass, CSSGrid, and Flexbox", "- Interactive User Interface", "- Dynamically created components", " - SVG Animations", "- Integration of data from JSON"],
             "techKeywords": "React, Static, Sass, Webpack, Yarn",
             "externallinks": [{
                     "id": 1,
@@ -38,9 +37,9 @@
                         {
                             "id": 2,
                             "title": "Front End Features",
-                            "information": ["- Developed reusable, presentational, and state driven  user interface components.","- Utilized React Router","- Programmed SVG Animations and assets, and implemented animated interactive and on scroll components.","- Dynamically generated components based on JSON file data."," - Responsive design utilizing CSS Grid, Flexbox, and Sass.", "Higher Order Components", "Image Zoom Modal Component", "- Front End Optimization", "- Made Use of SEO, Optimization, and Bundling features of React Static by Nozzle"]
-                        }, 
-                         {
+                            "information": ["- Developed reusable, presentational, and state driven  user interface components.", "- Utilized React Router", "- Programmed SVG Animations and assets, and implemented animated interactive and on scroll components.", "- Dynamically generated components based on JSON file data.", " - Responsive design utilizing CSS Grid, Flexbox, and Sass.", "Higher Order Components", "Image Zoom Modal Component", "- Front End Optimization", "- Made Use of SEO, Optimization, and Bundling features of React Static by Nozzle"]
+                        },
+                        {
                             "id": 3,
                             "title": "Preview",
                             "images": [{
@@ -50,35 +49,32 @@
                                 "imagetitle": "Preview",
                                 "imagecaption": "Preview",
                                 "imageformat": "png"
-                            } 
-                            ]
+                            }]
                         },
-                         {
+                        {
                             "id": 4,
                             "title": "Preview",
-                           "images": [{
+                            "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
                                 "image": "boomtech_screen3.png",
                                 "imagetitle": "Preview",
                                 "imagecaption": "Preview",
                                 "imageformat": "png"
-                            } 
-                            ]
+                            }]
                         }, {
                             "id": 5,
                             "title": "Preview",
-                           "images": [{
+                            "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
                                 "image": "boomtech_screen4.png",
                                 "imagetitle": "",
                                 "imagecaption": "Preview",
                                 "imageformat": "png"
-                            } 
-                            ]
+                            }]
                         },
-                         {
+                        {
                             "id": 6,
                             "title": "Preview",
                             "images": [{
@@ -88,21 +84,19 @@
                                 "imagetitle": "Preview",
                                 "imagecaption": "Preview",
                                 "imageformat": "png"
-                            } 
-                            ]
+                            }]
                         }
 
                     ]
                 },
                 {
-                "sectionid": 2,
+                    "sectionid": 2,
                     "sectiontitle": "Graphic Design",
                     "subsections": [{
-                            "id": 1,
-                            "title": "Graphic Design Process and Features",
-                            "information": ["- Created a brand design that I can have fun with and animate while expressing an explosive impact.","- Responsive logo and wordmark that I may use for print and web to promote the brand and platform, as well deliver a consistent and professional look", "- SVG Animation to animate the logo and supporting assets on the site with responsive design in mind."]
-                        }
-                    ]
+                        "id": 1,
+                        "title": "Graphic Design Process and Features",
+                        "information": ["- Created a brand design that I can have fun with and animate while expressing an explosive impact.", "- Responsive logo and wordmark that I may use for print and web to promote the brand and platform, as well deliver a consistent and professional look", "- SVG Animation to animate the logo and supporting assets on the site with responsive design in mind."]
+                    }]
                 }, {
                     "sectionid": 3,
                     "sectiontitle": "Brand",
@@ -221,10 +215,10 @@
         {
             "id": 2,
             "title": "Squad Up",
-            "services": ["FRONT END DEVELOPMENT","HTML5, CSS3, JAVASCRIPT","JQUERY"],
-            "liveurl":"https://boomtechny.github.io/SquadUp/",
+            "services": ["FRONT END DEVELOPMENT", "HTML5, CSS3, JAVASCRIPT", "JQUERY"],
+            "liveurl": "https://boomtechny.github.io/SquadUp/",
             "image": "squadup_preview.png",
-            "shortdescription": ["Marketing site for Fashion Brand, Squad Up, who hosts pop up store events world wide."," - Responsive HTML5 Video Background Hero"," - Parallax: backgrounds and on scroll animations","- Subscription Form","- Responsive Vertical Menu","- Slideshow and Modal Image Gallery"],
+            "shortdescription": ["Marketing site for Fashion Brand, Squad Up, who hosts pop up store events world wide.", " - Responsive HTML5 Video Background Hero", " - Parallax: backgrounds and on scroll animations", "- Subscription Form", "- Responsive Vertical Menu", "- Slideshow and Modal Image Gallery"],
             "techKeywords": "HTML5, CSS3, JAVASCRIPT, JQUERY, CSS ANIMATION, PARALLAX, FLEXBOX",
             "externallinks": [{
                 "id": 1,
@@ -234,27 +228,27 @@
                 "url": "https://github.com/boomtechny/SquadUp"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Fashion Brand, Squad Up required a marketing site to promote their brand, their pop up store events, and convert their visitors to subscribers to their mailing list."]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": [" - Responsible for converting design to interactive and responsive front end page.","- Integrated responsive HTML5 Video background hero", "- Developed image zoomed modal components and slideshow components for each collection item","- Implemented parallax background and on page load and on scroll css animations", "- Performed SEO and frontend optimizations "]
-                    }
-                ]
-            }, 
-            {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Fashion Brand, Squad Up required a marketing site to promote their brand, their pop up store events, and convert their visitors to subscribers to their mailing list."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": [" - Responsible for converting design to interactive and responsive front end page.", "- Integrated responsive HTML5 Video background hero", "- Developed image zoomed modal components and slideshow components for each collection item", "- Implemented parallax background and on page load and on scroll css animations", "- Performed SEO and frontend optimizations "]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
                             "id": 1,
                             "title": "Parallax Background",
-                            "information": [""], 
+                            "information": [""],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -262,11 +256,12 @@
                                 "imagetitle": "Parallax",
                                 "imagecaption": "Parallax Brand",
                                 "imageformat": "png"
-                            }]}, 
-                            {
+                            }]
+                        },
+                        {
                             "id": 2,
                             "title": "Responsive Navigation Menu",
-                            "information": ["-Vertical Navigation", "- Social Media", "- Full Screen Overlay Background"], 
+                            "information": ["-Vertical Navigation", "- Social Media", "- Full Screen Overlay Background"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -275,33 +270,33 @@
                                 "imagecaption": "Responsive Navigation Menu",
                                 "imageformat": "png"
                             }]
-                        }, 
-                           {
+                        },
+                        {
                             "id": 3,
                             "title": "Interactive Product Collection",
-                            "information": ["- Zoom Modal", "- On hover Scaling ", "- Slideshow gallery per product"], 
+                            "information": ["- Zoom Modal", "- On hover Scaling ", "- Slideshow gallery per product"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "squadup_screen6.png",
-                                "imagetitle": "Collection",
-                                "imagecaption": "Interactive Collection",
-                                "imageformat": "png"
-                            },
-                            {
-                                "imageid": 2,
-                                "imagetype": "behance",
-                                "image": "squadup_screen5.png",
-                                "imagetitle": "Collection-2",
-                                "imagecaption": "Modal",
-                                "imageformat": "png"
-                            } 
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "squadup_screen6.png",
+                                    "imagetitle": "Collection",
+                                    "imagecaption": "Interactive Collection",
+                                    "imageformat": "png"
+                                },
+                                {
+                                    "imageid": 2,
+                                    "imagetype": "behance",
+                                    "image": "squadup_screen5.png",
+                                    "imagetitle": "Collection-2",
+                                    "imagecaption": "Modal",
+                                    "imageformat": "png"
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "id": 4,
                             "title": "Mailing List Form",
-                            "information": ["- Hover Animations", "- Form Validation"], 
+                            "information": ["- Hover Animations", "- Form Validation"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -309,64 +304,64 @@
                                 "imagetitle": "Mailing List",
                                 "imagecaption": "Mailing List",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 5,
                             "title": "Full Landing Page Preview",
                             "information": [""],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "squadup_screen10.png",
-                                "imagetitle": "Full Preview",
-                                "imagecaption": "Full Preview",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "squadup_screen10.png",
+                                    "imagetitle": "Full Preview",
+                                    "imagecaption": "Full Preview",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        }
+                    ]
                 }
-                ]}
-                ]},
-          {
+            ]
+        },
+        {
             "id": 3,
             "title": "Tozai Sake",
-            "services": ["FRONT END DEVELOPMENT","HTML5, CSS3, JAVASCRIPT","SEO, Front End Optimization"
-            ],
-            "liveurl":"https://boomtechny.github.io/TozaiSake/",
+            "services": ["FRONT END DEVELOPMENT", "HTML5, CSS3, JAVASCRIPT", "SEO, Front End Optimization"],
+            "liveurl": "https://boomtechny.github.io/TozaiSake/",
             "image": "tozai_preview.png",
-            "shortdescription": ["Single page site showcasing Tozai Sake Products"," - Responsive full screen menu and fixed header", " - Parallax: backgrounds and on scroll animations"," - Contact and Subscription Forms", " - Interactive Product User Interface"," - Fixed header", " - Google Maps API Distribution List"],
+            "shortdescription": ["Single page site showcasing Tozai Sake Products", " - Responsive full screen menu and fixed header", " - Parallax: backgrounds and on scroll animations", " - Contact and Subscription Forms", " - Interactive Product User Interface", " - Fixed header", " - Google Maps API Distribution List"],
             "techKeywords": "HTML5, CSS3, Vanilla JS, CSS Animations, Flexbox, Parallax, Google Maps, Social Media, SEO, Front End Optimization",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/TozaiSake"
+                "url": "https://github.com/boomtechny/TozaiSake"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Client required front end single page site to provide information for their brewery, their line of Sake Products,and their distributor listings, and have users contact directly and/or joining their mailing list"]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Implemented user specified features including funtionality and design of product menu user interface component.","- Created distribution listings for utilizing Google Maps API.","- Coded fixed header, parallax backgrounds, and on scroll animations."]
-                    }
-                ]
-            },
-              {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Client required front end single page site to provide information for their brewery, their line of Sake Products,and their distributor listings, and have users contact directly and/or joining their mailing list"]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Implemented user specified features including funtionality and design of product menu user interface component.", "- Created distribution listings for utilizing Google Maps API.", "- Coded fixed header, parallax backgrounds, and on scroll animations."]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
                             "id": 1,
                             "title": "Parallax",
-                            "information": ["- Backgrounds", "- On Scroll Animations"], 
+                            "information": ["- Backgrounds", "- On Scroll Animations"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -374,11 +369,12 @@
                                 "imagetitle": "Parallax",
                                 "imagecaption": "Parallax Brand",
                                 "imageformat": "png"
-                            }]}, 
-                            {
+                            }]
+                        },
+                        {
                             "id": 2,
                             "title": "Responsive Navigation Menu",
-                            "information": ["- Full Screen Menu", "- On Hover Effects"], 
+                            "information": ["- Full Screen Menu", "- On Hover Effects"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -387,33 +383,33 @@
                                 "imagecaption": "Responsive Navigation Menu",
                                 "imageformat": "png"
                             }]
-                        }, 
-                           {
+                        },
+                        {
                             "id": 3,
                             "title": "Interactive Product Menu",
-                            "information": ["- Responsive Elements", "- DOM Change on Click Events"], 
+                            "information": ["- Responsive Elements", "- DOM Change on Click Events"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "tozai_screen3.png",
-                                "imagetitle": "Collection",
-                                "imagecaption": "Interactive Collection",
-                                "imageformat": "png"
-                            },
-                            {
-                                "imageid": 2,
-                                "imagetype": "behance",
-                                "image": "tozai_screen4.png",
-                                "imagetitle": "Collection-2",
-                                "imagecaption": "Modal",
-                                "imageformat": "png"
-                            } 
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "tozai_screen3.png",
+                                    "imagetitle": "Collection",
+                                    "imagecaption": "Interactive Collection",
+                                    "imageformat": "png"
+                                },
+                                {
+                                    "imageid": 2,
+                                    "imagetype": "behance",
+                                    "image": "tozai_screen4.png",
+                                    "imagetitle": "Collection-2",
+                                    "imagecaption": "Modal",
+                                    "imageformat": "png"
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "id": 4,
                             "title": "Contact and Mailing List Form",
-                            "information": ["- Hover Animations", "- Form Validation"], 
+                            "information": ["- Hover Animations", "- Form Validation"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -421,65 +417,65 @@
                                 "imagetitle": "Mailing List",
                                 "imagecaption": "Mailing List",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 5,
                             "title": "Google Maps API",
                             "information": ["- Distributor Listings"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "tozai_screen5.png",
-                                "imagetitle": "GoogleMaps",
-                                "imagecaption": "Google Maps",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "tozai_screen5.png",
+                                    "imagetitle": "GoogleMaps",
+                                    "imagecaption": "Google Maps",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        }
+                    ]
                 }
-                ]}]
+            ]
 
         },
-         {
+        {
             "id": 4,
             "title": "Pizza Time",
-            "services": ["FRONT END DEVELOPMENT","HTML5, CSS3 JAVASCRIPT, JQuery", "SEO"
-            ],
-            "liveurl":"https://boomtechny.github.io/PizzaTime/",
+            "services": ["FRONT END DEVELOPMENT", "HTML5, CSS3 JAVASCRIPT, JQuery", "SEO"],
+            "liveurl": "https://boomtechny.github.io/PizzaTime/",
             "image": "pizzatime_preview.png",
-            "shortdescription": ["Responsive Site for Pizza Time Delivery Application", "- Parallax: backgrounds, and on scroll animations"," - Responsive Grid CSS", " - Contact Form"," - Interactive UI Components"],
+            "shortdescription": ["Responsive Site for Pizza Time Delivery Application", "- Parallax: backgrounds, and on scroll animations", " - Responsive Grid CSS", " - Contact Form", " - Interactive UI Components"],
             "techKeywords": "HTML5, CSS3, Vanilla JS, CSS Animations, SEO Optimization",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/PizzaTime"
+                "url": "https://github.com/boomtechny/PizzaTime"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Pizza Time has a mobile delivery application and wished to provide visitors with a fluid way to find out more about the application and convert them join their mailing list."]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Converted PSD Design into Functional and Responsive Front End Site", "-Utilized IcoFont for Feature Icons","Integrated Animated and Interactive Components, - Utilized CSS Keyframes for Animations", "Scripted behavior of components"]
-                    }
-                ]
-            }, 
-            {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Pizza Time has a mobile delivery application and wished to provide visitors with a fluid way to find out more about the application and convert them join their mailing list."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Converted PSD Design into Functional and Responsive Front End Site", "-Utilized IcoFont for Feature Icons", "Integrated Animated and Interactive Components, - Utilized CSS Keyframes for Animations", "Scripted behavior of components"]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
                             "id": 1,
                             "title": "Parallax",
-                            "information": ["-Backgrounds", "- On Scroll Animations"], 
+                            "information": ["-Backgrounds", "- On Scroll Animations"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -487,11 +483,12 @@
                                 "imagetitle": "Parallax",
                                 "imagecaption": "Parallax",
                                 "imageformat": "png"
-                            }]}, 
-                            {
+                            }]
+                        },
+                        {
                             "id": 2,
                             "title": "Interactive Gallery",
-                            "information": ["- On Hover Effects"], 
+                            "information": ["- On Hover Effects"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -500,11 +497,11 @@
                                 "imagecaption": "Gallery",
                                 "imageformat": "png"
                             }]
-                        }, 
-                           {
+                        },
+                        {
                             "id": 4,
                             "title": "Contact Form",
-                            "information": ["- Form Validation", "- Input Form Elements"], 
+                            "information": ["- Form Validation", "- Input Form Elements"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -512,50 +509,50 @@
                                 "imagetitle": "Contact Form",
                                 "imagecaption": "Contact Form",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 5,
                             "title": "",
-                            
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "pizzatime_screen5.png",
-                                "imagetitle": "App Preview",
-                                "imagecaption": "Pizzatime App",
-                                "imageformat": "png"
-                            },
-                            {
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "pizzatime_screen6.png",
-                                "imagetitle": "Pricing",
-                                "imagecaption": "Pricing",
-                                "imageformat": "png"
-                            },
-                            {
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "pizzatime_screen3.png",
-                                "imagetitle": "Features",
-                                "imagecaption": "Feature Icons",
-                                "imageformat": "png"
-                            }
-                        
-                        ]
-                }
-                ]}
-                ]
 
-        },{
+                            "images": [{
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "pizzatime_screen5.png",
+                                    "imagetitle": "App Preview",
+                                    "imagecaption": "Pizzatime App",
+                                    "imageformat": "png"
+                                },
+                                {
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "pizzatime_screen6.png",
+                                    "imagetitle": "Pricing",
+                                    "imagecaption": "Pricing",
+                                    "imageformat": "png"
+                                },
+                                {
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "pizzatime_screen3.png",
+                                    "imagetitle": "Features",
+                                    "imagecaption": "Feature Icons",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+
+        }, {
             "id": 5,
             "title": "Find Your Ink",
-            "services": ["FRONT END DEVELOPMENT","WORDPRESS THEMES AND PLUGINS", "E-COMMERCE: WOOCOMMERCE"],
+            "services": ["FRONT END DEVELOPMENT", "WORDPRESS THEMES AND PLUGINS", "E-COMMERCE: WOOCOMMERCE"],
             "liveurl": "http://findyourink.atwebpages.com/",
             "image": "findyourink_preview.png",
-            "shortdescription": ["Site for client to preview current tattoo directory site design using MyListing Theme and Features", " - Video Background Header", " - MyListing Child Theme"," - Woocommerce"],
+            "shortdescription": ["Site for client to preview current tattoo directory site design using MyListing Theme and Features", " - Video Background Header", " - MyListing Child Theme", " - Woocommerce"],
             "techKeywords": "HTML5, CSS3, Wordpress, Woocommerce, Javascript, MyListing Theme, PHP, Flexbox, Docker",
             "externallinks": [{
                 "id": 1,
@@ -565,27 +562,27 @@
                 "url": ""
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Client has an existing live site and web design, but would like to begin using MyListing Wordpress Theme. Client needed a custom child theme to preview and in some aspects update, the front end."
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Translated current client’s design site with theme features to allow user to preview functionality of the theme, before migrating live site.", "Refactored certain design elements", "- Developed responsive mobile side menu, and hero video background.", "- Woocommerce and Buddy Press Integration"]
-                    }
-                ]
-            },
-              {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Client has an existing live site and web design, but would like to begin using MyListing Wordpress Theme. Client needed a custom child theme to preview and in some aspects update, the front end."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Translated current client’s design site with theme features to allow user to preview functionality of the theme, before migrating live site.", "Refactored certain design elements", "- Developed responsive mobile side menu, and hero video background.", "- Woocommerce and Buddy Press Integration"]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
                             "id": 1,
                             "title": "Landing Page",
-                            "information": ["- Hero Video Background", "- Category Listings", "- Search Form and Menu, with Integrated Custom Categories", "- Interactive Listing Elements to render key details on click event"], 
+                            "information": ["- Hero Video Background", "- Category Listings", "- Search Form and Menu, with Integrated Custom Categories", "- Interactive Listing Elements to render key details on click event"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -593,11 +590,12 @@
                                 "imagetitle": "Parallax",
                                 "imagecaption": "Parallax Brand",
                                 "imageformat": "png"
-                            }]}, 
-                            {
+                            }]
+                        },
+                        {
                             "id": 2,
                             "title": "- Responsive Navigation Menu",
-                            "information": ["- Full Screen Menu", "- On Hover Effects"], 
+                            "information": ["- Full Screen Menu", "- On Hover Effects"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -606,33 +604,33 @@
                                 "imagecaption": "Responsive Navigation Menu",
                                 "imageformat": "png"
                             }]
-                        }, 
-                           {
+                        },
+                        {
                             "id": 3,
                             "title": "Google Maps API",
-                            "information": ["- Responsive Directory and Maps", "- Flexbox", "- Modal Display", "- Interactive Search Form and Menu"], 
+                            "information": ["- Responsive Directory and Maps", "- Flexbox", "- Modal Display", "- Interactive Search Form and Menu"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "findyourink_screen3.png",
-                                "imagetitle": "Map1",
-                                "imagecaption": "Map1",
-                                "imageformat": "png"
-                            },
-                            {
-                                "imageid": 2,
-                                "imagetype": "behance",
-                                "image": "findyourink_screen4.png",
-                                "imagetitle": "Map2",
-                                "imagecaption": "Map2",
-                                "imageformat": "png"
-                            } 
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "findyourink_screen3.png",
+                                    "imagetitle": "Map1",
+                                    "imagecaption": "Map1",
+                                    "imageformat": "png"
+                                },
+                                {
+                                    "imageid": 2,
+                                    "imagetype": "behance",
+                                    "image": "findyourink_screen4.png",
+                                    "imagetitle": "Map2",
+                                    "imagecaption": "Map2",
+                                    "imageformat": "png"
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "id": 4,
                             "title": "Custom Artist Page",
-                            "information": ["- Interactive Gallery, Header Page Banner Background","- Custom Styles"], 
+                            "information": ["- Interactive Gallery, Header Page Banner Background", "- Custom Styles"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -640,49 +638,49 @@
                                 "imagetitle": "Artist Page",
                                 "imagecaption": "Artist Page",
                                 "imageformat": "png"
-                            } 
-                            ]
+                            }]
                         }
-                ]}
+                    ]
+                }
             ]
-        },  
+        },
         {
             "id": 6,
             "title": "Ninja Ramen",
-            "services": ["FRONT END DEVELOPMENT","WORDPRESS THEMES AND PLUGINS", "PHP, MYSQL, HTML5, CSS3, Javascript"],
-            "liveurl":"https://btwpstaging.000webhostapp.com/ninjaramen/",
+            "services": ["FRONT END DEVELOPMENT", "WORDPRESS THEMES AND PLUGINS", "PHP, MYSQL, HTML5, CSS3, Javascript"],
+            "liveurl": "https://btwpstaging.000webhostapp.com/ninjaramen/",
             "image": "ninjaramen_preview.png",
-            "shortdescription": ["Restaurant Site for Ninja Ramen", "- Options Settings Page"," - Custom Post Fields", " - Admin Reservation Management"," - Geolocation"],
+            "shortdescription": ["Restaurant Site for Ninja Ramen", "- Options Settings Page", " - Custom Post Fields", " - Admin Reservation Management", " - Geolocation"],
             "techKeywords": "HTML5, CSS3, Wordpress, PHP, Docker",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-Wordpress-Docker/tree/master/wordpress/wp-content/themes/bt-restaurant-theme"
+                "url": "https://github.com/boomtechny/BT-Wordpress-Docker/tree/master/wordpress/wp-content/themes/bt-restaurant-theme"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Custom wordpress theme for restaurant site requiring reservation and Google Maps API functionality, and essential information about the restaurant for customers."
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Required integrated support for storing, updating, and editing user reservations from Administrator Page", "- Options Settings for Google Maps API integrated on Site", "- reCaptcha implementation", "-Theme Customizations", "Social Media Menu", "Custom Post Types Specialty Menu", "- Custom Post Fields for Pricing", "-Blog Widgets", "- Responsive Design and Navigation", "- Interactive Menu Elements using Animations"]
-                    }
-                ]
-            },
-               {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Custom wordpress theme for restaurant site requiring reservation and Google Maps API functionality, and essential information about the restaurant for customers."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Required integrated support for storing, updating, and editing user reservations from Administrator Page", "- Options Settings for Google Maps API integrated on Site", "- reCaptcha implementation", "-Theme Customizations", "Social Media Menu", "Custom Post Types Specialty Menu", "- Custom Post Fields for Pricing", "-Blog Widgets", "- Responsive Design and Navigation", "- Interactive Menu Elements using Animations"]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
                             "id": 1,
                             "title": "Intuitive Landing Page",
-                            "information": ["- Custom Background Banner","- Menu Specialty Post Type Section ", "- Gallery Section", "- Reservation and Google Maps Section"], 
+                            "information": ["- Custom Background Banner", "- Menu Specialty Post Type Section ", "- Gallery Section", "- Reservation and Google Maps Section"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -690,11 +688,12 @@
                                 "imagetitle": "Screen 2",
                                 "imagecaption": "Screen 2",
                                 "imageformat": "png"
-                                }]}, 
-                            {
+                            }]
+                        },
+                        {
                             "id": 2,
                             "title": "Specialty Menu Elements",
-                            "information": ["- On hover effects revealing pricing and menu item information"], 
+                            "information": ["- On hover effects revealing pricing and menu item information"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -703,11 +702,11 @@
                                 "imagecaption": "Menu",
                                 "imageformat": "png"
                             }]
-                        }, 
-                           {
+                        },
+                        {
                             "id": 3,
                             "title": "Menu Page",
-                            "information": [""], 
+                            "information": [""],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -715,13 +714,12 @@
                                 "imagetitle": "Menu",
                                 "imagecaption": "Menu",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 4,
                             "title": "Contact Reservation Page",
-                            "information": ["- Form Validation", "- Date and Time Picker", "- Submission Thank You Page"], 
+                            "information": ["- Form Validation", "- Date and Time Picker", "- Submission Thank You Page"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -729,78 +727,79 @@
                                 "imagetitle": "Reservation",
                                 "imagecaption": "Reservation",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 5,
                             "title": "Modal Zoom Image Component",
                             "information": [""],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "ninjaramen_screen10.png",
-                                "imagetitle": "Modal",
-                                "imagecaption": "Modal",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
-                }, 
-                 {
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "ninjaramen_screen10.png",
+                                    "imagetitle": "Modal",
+                                    "imagecaption": "Modal",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        },
+                        {
                             "id": 5,
                             "title": "About Page",
                             "information": [""],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "ninjaramen_screen9.png",
-                                "imagetitle": "About",
-                                "imagecaption": "About",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "ninjaramen_screen9.png",
+                                    "imagetitle": "About",
+                                    "imagecaption": "About",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        }
+                    ]
                 }
-                ]}]
+            ]
         },
-         {
+        {
             "id": 7,
             "title": "Citadel University",
-            "services": ["FRONT END DEVELOPMENT","WORDPRESS THEMES AND PLUGINS", "PHP, HTML5, CSS3, JAVASCRIPT"],
-            "liveurl":"https://btwpstaging.000webhostapp.com/citadeluniversity/",
+            "services": ["FRONT END DEVELOPMENT", "WORDPRESS THEMES AND PLUGINS", "PHP, HTML5, CSS3, JAVASCRIPT"],
+            "liveurl": "https://btwpstaging.000webhostapp.com/citadeluniversity/",
             "image": "citadel_preview.png",
-            "shortdescription": ["University Portal Site for students to login and view information about the university and take notes for courses from the browser",  "University Settings "," - Custom Post Fields", " - Admin Reservation Management"," - Geolocation"],
-            "techKeywords": "HTML5, CSS3, Wordpress, PHP, Bootstrapm Docker",
+            "shortdescription": ["University Portal Site for students to login and view information about the university and take notes for courses from the browser", "Customize Page Banners", " - Custom Post Fields", " -Implementing Registration and Login", " - Google Maps API", "Note Taking and Social Functionality"],
+            "techKeywords": "HTML5, CSS3, Wordpress, PHP, Bootstrap, Docker",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-Wordpress-Docker/tree/master/wordpress/wp-content/themes/mockedutheme"
+                "url": "https://github.com/boomtechny/BT-Wordpress-Docker/tree/master/wordpress/wp-content/themes/mockedutheme"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["University Portal Site for student to visit to learn more about the university, programs, events, and teachers as well as login to post notes and provide feedback"
-                ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Coded Wordpress theme and plugins, implementing university site features","- Implemented custom public registration and login page, search functionality and functional note taking user interface components.", "- Developed custom site related post types plugin.", "- Coded page templates, custom post fields, and post types", "- Slide show carousel of featured events post types"]
-                    }
-                ]
-            },
-               {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["University Portal Site for student to visit to learn more about the university, programs, events, and teachers as well as login to post notes and provide feedback"]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Coded Wordpress theme and plugins, implementing university site features", "- Implemented custom public registration and login page, search functionality and functional note taking user interface components.", "- Developed custom site related post types plugin.", "- Coded page templates, custom post fields, and post types", "- Slide show carousel of featured events post types"]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
                             "id": 1,
                             "title": "Registration, Login and Note Taking",
-                            "information": ["- Students may login or sign up", "- Ability to update, edit, and save notes for courses"], 
+                            "information": ["- Students may login or sign up", "- Ability to update, edit, and save notes for courses"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -808,97 +807,101 @@
                                 "imagetitle": "Notes",
                                 "imagecaption": "Notes",
                                 "imageformat": "png"
-                            }]}, 
-                           {
+                            }]
+                        },
+                        {
                             "id": 3,
                             "title": "Professor and Program Post Types",
-                            "information": ["- Students may provide feedback and post likes to professor pages", "- Provided Program Information"], 
+                            "information": ["- Students may provide feedback and post likes to professor pages", "- Provided Program Information"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "citadel_screen6.png",
-                                "imagetitle": "Post Types",
-                                "imagecaption": "Post Types",
-                                "imageformat": "png"
-                            }
-                            
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "citadel_screen6.png",
+                                    "imagetitle": "Post Types",
+                                    "imagecaption": "Post Types",
+                                    "imageformat": "png"
+                                }
+
                             ]
-                        }, 
+                        },
                         {
                             "id": 4,
                             "title": "Google Maps API",
-                            "information": ["- Campus post type listings utilizing Google Maps"], 
+                            "information": ["- Campus post type listings utilizing Google Maps"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "citadel_screen7.png",
-                                "imagetitle": "Campus",
-                                "imagecaption": "Campus",
-                                "imageformat": "png"
-                            }, 
-                            {
-                            "imageid": 2,
-                                "imagetype": "behance",
-                                "image": "citadel_screen4.png",
-                                "imagetitle": "Campus",
-                                "imagecaption": "Campus",
-                                "imageformat": "png"}
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "citadel_screen7.png",
+                                    "imagetitle": "Campus",
+                                    "imagecaption": "Campus",
+                                    "imageformat": "png"
+                                },
+                                {
+                                    "imageid": 2,
+                                    "imagetype": "behance",
+                                    "image": "citadel_screen4.png",
+                                    "imagetitle": "Campus",
+                                    "imagecaption": "Campus",
+                                    "imageformat": "png"
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "id": 5,
                             "title": "Responsive Design",
                             "information": ["- Mobile Navigation Menu", "- Bootstrap"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "citadel_screen3.png",
-                                "imagetitle": "Mobile",
-                                "imagecaption": "Mobile",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "citadel_screen3.png",
+                                    "imagetitle": "Mobile",
+                                    "imagecaption": "Mobile",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        }
+                    ]
                 }
-                ]}]
-        },  
-         {
+            ]
+        },
+        {
             "id": 8,
             "title": "Course Marketing Theme",
-            "services": ["FRONT END DEVELOPMENT","WORDPRESS THEME, BOOTSTRAP", "PHP, HTML5, CSS3, JAVASCRIPT"],
-            "liveurl":"https://btwpstaging.000webhostapp.com/btmarketing/",
+            "services": ["FRONT END DEVELOPMENT", "WORDPRESS THEME, BOOTSTRAP", "PHP, HTML5, CSS3, JAVASCRIPT"],
+            "liveurl": "https://btwpstaging.000webhostapp.com/btmarketing/",
             "image": "btmarketing_preview.png",
-            "shortdescription": ["Developed Wordpress Theme with features critical for a marketing site", "- Theme customizations"," - Dynamic background page headers", "- Custom post fields, types and templates"],
+            "shortdescription": ["Developed Wordpress Theme with features critical for a marketing site", "- Theme customizations", " - Dynamic background page headers", "- Custom post fields, types and templates"],
             "techKeywords": "HTML5, CSS3, Wordpress, jQuery, Bootstrap, Docker",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-Wordpress-Docker/tree/master/wordpress/wp-content/themes/bt-marketing-theme"
+                "url": "https://github.com/boomtechny/BT-Wordpress-Docker/tree/master/wordpress/wp-content/themes/bt-marketing-theme"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Required a Wordpress theme with features essential for any brand's marketing. Any user would be able to easily customize using the Wordpress Customizer. It also required that the user be able to customize each section of their front end page, posts, and pages."
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Theme customizations", "- Page Templates", "- Sectional Templates", "- Custom Field Forms", "- Custom Post Types"]
-                    }
-                ]
-            },
-               {
-                "sectionid": 2,
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Required a Wordpress theme with features essential for any brand's marketing. Any user would be able to easily customize using the Wordpress Customizer. It also required that the user be able to customize each section of their front end page, posts, and pages."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Theme customizations", "- Page Templates", "- Sectional Templates", "- Custom Field Forms", "- Custom Post Types"]
+                        }
+                    ]
+                },
+                {
+                    "sectionid": 2,
                     "sectiontitle": "Features",
                     "subsections": [{
-                         "id": 1,
+                            "id": 1,
                             "title": "Testimonial Post Types",
-                            "information": ["- Programmed so that users may easily upload images and testimonies  for their product"], 
+                            "information": ["- Programmed so that users may easily upload images and testimonies  for their product"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -906,13 +909,12 @@
                                 "imagetitle": "Testimonial",
                                 "imagecaption": "Testimonial",
                                 "imageformat": "png"
-                            }
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 2,
                             "title": "Custom Feature Pages",
-                            "information": ["- Utilized custom post types and fields to add icon upload and  WYSIWG Forms so that user may easily edit pages"], 
+                            "information": ["- Utilized custom post types and fields to add icon upload and  WYSIWG Forms so that user may easily edit pages"],
                             "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
@@ -920,243 +922,249 @@
                                 "imagetitle": "Feature Pages",
                                 "imagecaption": "Feature Pages",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }, 
+                            }]
+                        },
                         {
                             "id": 3,
                             "title": "Responsive Design",
                             "information": ["Mobile Preview"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "btmarketing_screen6.png",
-                                "imagetitle": "Mobile Preview",
-                                "imagecaption": "Mobile Preview",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
-                }, 
-                {
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "btmarketing_screen6.png",
+                                    "imagetitle": "Mobile Preview",
+                                    "imagecaption": "Mobile Preview",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        },
+                        {
                             "id": 4,
                             "title": "Full Landing Preview",
                             "information": ["Tablet Preview"],
                             "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "btmarketing_screen2.png",
-                                "imagetitle": "Mobile Preview",
-                                "imagecaption": "Mobile Preview",
-                                "imageformat": "png"
-                            } 
-                        
-                        ]
+                                    "imageid": 1,
+                                    "imagetype": "behance",
+                                    "image": "btmarketing_screen2.png",
+                                    "imagetitle": "Mobile Preview",
+                                    "imagecaption": "Mobile Preview",
+                                    "imageformat": "png"
+                                }
+
+                            ]
+                        }
+                    ]
                 }
-                ]}
             ]
-        },   
-         {
+        },
+        {
             "id": 9,
             "title": "ISR Newsletter",
-            "services": ["FRONT END DEVELOPMENT","EMAIL TEMPLATE", "HTML TABLES, CSS"],
-            "liveurl":"https://s3.amazonaws.com/boomtechny/email/isr/images/12222013.html",
+            "services": ["FRONT END DEVELOPMENT", "EMAIL TEMPLATE", "HTML TABLES, CSS"],
+            "liveurl": "https://s3.amazonaws.com/boomtechny/email/isr/images/12222013.html",
             "image": "isr_preview.png",
-            "shortdescription": ["Email template for monthly ISR Newsletter", "- Responsive Design"," - Embedded links and media"],
+            "shortdescription": ["Email template for monthly ISR Newsletter", "- Responsive Design", " - Embedded links and media"],
             "techKeywords": "HTML, CSS, Email Service Provider",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/bt-responsive-emails/tree/master/isr-newsletter"
+                "url": "https://github.com/boomtechny/bt-responsive-emails/tree/master/isr-newsletter"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["ISR music production company required montly emails to showcase music releases, and other promotional material"
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": ["- Worked with client to refactor old email design to implement responsive and improved non-linear design", "- Performed cross platform testing using Email Service Provider", "- Utilized HTML Tables and CSS", "- Responsible for embedding critical promotional links and media"]
-                    }
-                ]
-            },
-            {
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["ISR music production company required montly emails to showcase music releases, and other promotional material"]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": ["- Worked with client to refactor old email design to implement responsive and improved non-linear design", "- Performed cross platform testing using Email Service Provider", "- Utilized HTML Tables and CSS", "- Responsible for embedding critical promotional links and media"]
+                        }
+                    ]
+                },
+                {
                     "sectionid": 2,
                     "sectiontitle": "Full Preview",
                     "subsections": [{
-                            "id": 1,
-                            "title": "Full Preview",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "isr-marketing_preview3.png",
-                                "imagetitle": "Email Preview",
-                                "imagecaption": "Email Preview",
-                                "imageformat": "png"
-                            }]
+                        "id": 1,
+                        "title": "Full Preview",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "isr-marketing_preview3.png",
+                            "imagetitle": "Email Preview",
+                            "imagecaption": "Email Preview",
+                            "imageformat": "png"
                         }]
-        }]
+                    }]
+                }
+            ]
         },
-         {
+        {
             "id": 10,
             "title": "She's In The Glow",
-            "services": ["FRONT END DEVELOPMENT","EMAIL TEMPLATE", "HTML TABLES, CSS"],
-            "liveurl":"https://s3.amazonaws.com/boomtechny/email/otheremails/sale/index.html",
+            "services": ["FRONT END DEVELOPMENT", "EMAIL TEMPLATE", "HTML TABLES, CSS"],
+            "liveurl": "https://s3.amazonaws.com/boomtechny/email/otheremails/sale/index.html",
             "image": "shesintheglow_preview3.png",
-            "shortdescription": ["Marketing email template to promote new sales, and product inventory for beauty brand","- Responsive", "- Embedded Gif, Links, and Static Images", "- Cross Platform Testing", "- Button Links", "- Social Media"],
+            "shortdescription": ["Marketing email template to promote new sales, and product inventory for beauty brand", "- Responsive", "- Embedded Gif, Links, and Static Images", "- Cross Platform Testing", "- Button Links", "- Social Media"],
             "techKeywords": "HTML, CSS",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/bt-responsive-emails/tree/master/she'sintheglow-marketing"
+                "url": "https://github.com/boomtechny/bt-responsive-emails/tree/master/she'sintheglow-marketing"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Beauty brand, She's In The Glow, required email template to promote upcoming sales."
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": [" - Utilized HTML Tables", "- Implemented my own grid styles to maintain consistent responsive form", "- Performed cross platform testing using Get Response Email Service Provider Tools"]
-                    }
-                ]
-            }, 
-            {
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Beauty brand, She's In The Glow, required email template to promote upcoming sales."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": [" - Utilized HTML Tables", "- Implemented my own grid styles to maintain consistent responsive form", "- Performed cross platform testing using Get Response Email Service Provider Tools"]
+                        }
+                    ]
+                },
+                {
                     "sectionid": 2,
                     "sectiontitle": "Full Preview",
                     "subsections": [{
-                            "id": 1,
-                            "title": "Full Preview",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "shesintheglow_preview.png",
-                                "imagetitle": "Email Preview",
-                                "imagecaption": "Email Preview",
-                                "imageformat": "png"
-                            }]
+                        "id": 1,
+                        "title": "Full Preview",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "shesintheglow_preview.png",
+                            "imagetitle": "Email Preview",
+                            "imagecaption": "Email Preview",
+                            "imageformat": "png"
                         }]
-        }]
+                    }]
+                }
+            ]
         },
-         {
+        {
             "id": 11,
             "title": "Equinix",
-            "services": ["FRONT END DEVELOPMENT","EMAIL TEMPLATE", "HTML5 TABLES, CSS"],
-            "liveurl":"https://s3.amazonaws.com/boomtechny/email/otheremails/newarrival/index.html",
+            "services": ["FRONT END DEVELOPMENT", "EMAIL TEMPLATE", "HTML5 TABLES, CSS"],
+            "liveurl": "https://s3.amazonaws.com/boomtechny/email/otheremails/newarrival/index.html",
             "image": "equinix_preview.png",
-            "shortdescription": ["Marketing email template for Equinix clothing brand's new arrivals", "- Responsive Design","- Embedded links and media"],
+            "shortdescription": ["Marketing email template for Equinix clothing brand's new arrivals", "- Responsive Design", "- Embedded links and media"],
             "techKeywords": "HTML, CSS, Email, Mailchimp, Get Response, HTML Tables",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/bt-responsive-emails/tree/master/equinix"
+                "url": "https://github.com/boomtechny/bt-responsive-emails/tree/master/equinix"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Equinix clothing brand required responsive email template to promote new arrival product inventory."
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": [" - Utilized HTML Tables", "- Implemented my own grid styles to maintain consistent responsive form", "- Performed cross platform testing using Get Response Email Service Provider Tools"]
-                    }
-                ]
-            },
-            {
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Equinix clothing brand required responsive email template to promote new arrival product inventory."]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": [" - Utilized HTML Tables", "- Implemented my own grid styles to maintain consistent responsive form", "- Performed cross platform testing using Get Response Email Service Provider Tools"]
+                        }
+                    ]
+                },
+                {
                     "sectionid": 2,
                     "sectiontitle": "Full Preview",
                     "subsections": [{
-                            "id": 1,
-                            "title": "Full Preview",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "equinix-marketing_preview.png",
-                                "imagetitle": "Email Preview",
-                                "imagecaption": "Email Preview",
-                                "imageformat": "png"
-                            }]
+                        "id": 1,
+                        "title": "Full Preview",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "equinix-marketing_preview.png",
+                            "imagetitle": "Email Preview",
+                            "imagecaption": "Email Preview",
+                            "imageformat": "png"
                         }]
-        }]},
-         {
+                    }]
+                }
+            ]
+        },
+        {
             "id": 12,
             "title": "Gladiator",
-            "services": ["FRONT END DEVELOPMENT","Transaction Email Template", "HTML Tables"],
-            "liveurl":"https://s3.amazonaws.com/boomtechny/email/otheremails/transaction/index.html",
+            "services": ["FRONT END DEVELOPMENT", "Transaction Email Template", "HTML Tables"],
+            "liveurl": "https://s3.amazonaws.com/boomtechny/email/otheremails/transaction/index.html",
             "image": "gladiator_preview.png",
-            "shortdescription": ["Transactional Email Template for Gladiator Mobile Application", "- Responsive Design","- Embedded links and media", "- Responsive Button Elements"],
+            "shortdescription": ["Transactional Email Template for Gladiator Mobile Application", "- Responsive Design", "- Embedded links and media", "- Responsive Button Elements"],
             "techKeywords": "HTML, CSS, Email, Mailchimp, Get Response, HTML Tables",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/bt-responsive-emails/tree/master/gladiator-transactional"
+                "url": "https://github.com/boomtechny/bt-responsive-emails/tree/master/gladiator-transactional"
             }],
             "sections": [{
-                "sectionid": 1,
-                "sectiontitle": "Overview",
-                "subsections": [{
-                        "id": 1,
-                        "title": "Brief",
-                        "information": ["Gladiator Mobile Application required transactional email template to handle responses to user password resets and promote the application availability in the App and Play Store"
-                        ]},
-                    {
-                        "id": 2,
-                        "title": "Process",
-                        "information": [" - Utilized HTML Tables", "- Implemented my own grid styles to maintain consistent responsive form", "- Performed cross platform testing using Get Response Email Service Provider Tools"]
-                    }
-                ]
-            }, 
-             {
+                    "sectionid": 1,
+                    "sectiontitle": "Overview",
+                    "subsections": [{
+                            "id": 1,
+                            "title": "Brief",
+                            "information": ["Gladiator Mobile Application required transactional email template to handle responses to user password resets and promote the application availability in the App and Play Store"]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Process",
+                            "information": [" - Utilized HTML Tables", "- Implemented my own grid styles to maintain consistent responsive form", "- Performed cross platform testing using Get Response Email Service Provider Tools"]
+                        }
+                    ]
+                },
+                {
                     "sectionid": 2,
                     "sectiontitle": "Full Preview",
                     "subsections": [{
-                            "id": 1,
-                            "title": "Full Preview",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "gladiator_preview.png",
-                                "imagetitle": "Email Preview",
-                                "imagecaption": "Email Preview",
-                                "imageformat": "png"
-                            }]
+                        "id": 1,
+                        "title": "Full Preview",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "gladiator_preview.png",
+                            "imagetitle": "Email Preview",
+                            "imagecaption": "Email Preview",
+                            "imageformat": "png"
                         }]
-        }]},
-           
-         {
+                    }]
+                }
+            ]
+        },
+
+        {
             "id": 13,
             "title": "Absolute Zone",
-            "services": ["WEB DEVELOPMENT","REACT, REDUX, EXPRESS", "E-Commerce, Stripe API"],
-            "liveurl":"http://absolutezone.s3-website-us-east-1.amazonaws.com/#/",
+            "services": ["WEB DEVELOPMENT", "REACT, REDUX, EXPRESS", "E-Commerce, Stripe API"],
+            "liveurl": "http://absolutezone.s3-website-us-east-1.amazonaws.com/#/",
             "image": "absolutezone_preview.png",
-            "shortdescription": ["Ecommerce site for thigh high resaler", "- Coded user interface components for checkout and payment process"," - Asynchronous communication to Stripe Endpoint", "- Dynamic product listings components from JSON files"],
+            "shortdescription": ["Ecommerce site for thigh high resaler", "- Coded user interface components for checkout and payment process", " - Asynchronous communication to Stripe Endpoint", "- Dynamic product listings components from JSON files"],
             "techKeywords": "React, Redux, Express, Node, Yarn, Bootstrap, CSS Grid, Flexbox, Stripe, JSON",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-E-commerce"
+                "url": "https://github.com/boomtechny/BT-E-commerce"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1164,18 +1172,18 @@
                 "subsections": [{
                         "id": 1,
                         "title": "Brief",
-                        "information": ["Custom dynamic wordpress theme for Twitch channel host with extended features for advertisments, logo customizations"
-                        ]},
+                        "information": ["Custom dynamic wordpress theme for Twitch channel host with extended features for advertisments, logo customizations"]
+                    },
                     {
                         "id": 2,
                         "title": "Process",
                         "information": ["- Transformed design into user interface components critical for E-Commerce website, including shopping cart, quick view, and checkout page.", "- Implemented interaction with Stripe endpoints during user checkout and payment process."]
-                    }, 
-                     {
-                            "id": 3,
-                            "title": "E-Commerce Component Elements",
-                            "information": ["-Shopping Cart", "- Products", "- Checkout Form", "- Stripe Endpoint", "- Payment Validation"], 
-                            "images": [{
+                    },
+                    {
+                        "id": 3,
+                        "title": "E-Commerce Component Elements",
+                        "information": ["-Shopping Cart", "- Products", "- Checkout Form", "- Stripe Endpoint", "- Payment Validation"],
+                        "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
                                 "image": "absolutezone_preview.png",
@@ -1190,18 +1198,17 @@
                                 "imagetitle": "Checkout",
                                 "imagecaption": "Checkout",
                                 "imageformat": "png"
-                            } 
-                            ]
-                        }
+                            }
+                        ]
+                    }
                 ]
-            }
-            ]
+            }]
         },
-         {
+        {
             "id": 14,
             "title": "Comics To Read",
-            "services": ["FRONT END DEVELOPMENT","REACT, REDUX, TDD", "JAVASCRIPT, JSX, CSS3"],
-            "liveurl":"http://comicstoread.s3-website-us-east-1.amazonaws.com/",
+            "services": ["FRONT END DEVELOPMENT", "REACT, REDUX, TDD", "JAVASCRIPT, JSX, CSS3"],
+            "liveurl": "http://comicstoread.s3-website-us-east-1.amazonaws.com/",
             "image": "comicstoread_preview.png",
             "shortdescription": ["- React front end application for users to create an editable list of comics they plan to read", "- Reusable components", "- Test Driven Implementation", "- State management utilizing Redux"],
             "techKeywords": "React, Redux, Selenium, Mocha, Chai, Enzyme, Jest, TDD, CRUD",
@@ -1210,7 +1217,7 @@
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-React-Redux-ToDo-TDD"
+                "url": "https://github.com/boomtechny/BT-React-Redux-ToDo-TDD"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1219,33 +1226,32 @@
                         "id": 1,
                         "title": "Brief",
                         "information": ["In an effort to build out a full a full comic book related application, development began with implementing a project to create an editable list of comics that a user may use to keep track of comics they plan to read."]
-                        },
+                    },
                     {
                         "id": 2,
                         "title": "Process",
                         "information": ["- Responsible for creating components while performing unit, end to end, integration, and functional testing.", "- Utilize Redux for state management", " - Program interactive and presentational components"]
-                    }, 
+                    },
                     {
-                            "id": 3,
-                            "title": "",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "comicstoread_preview.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            } 
-                            ]
-                        }
+                        "id": 3,
+                        "title": "",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "comicstoread_preview.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    }
                 ]
             }]
         },
-         {
+        {
             "id": 15,
             "title": "Employee Manager - Android, iOS",
-            "services": ["Mobile Application Development","REACT NATIVE, REDUX, JAVASCRIPT", "FIREBASE"],
-            "liveurl":"https://github.com/boomtechny/BT-ManagerApp",
+            "services": ["Mobile Application Development", "REACT NATIVE, REDUX, JAVASCRIPT", "FIREBASE"],
+            "liveurl": "https://github.com/boomtechny/BT-ManagerApp",
             "image": "managerapp_preview.png",
             "shortdescription": ["Employee management mobile application for managers or employees to login, view, or edit work shift schedules", "Reusable components", "- Asynchronous communication to Firebase API", "Redux state management", "- React Router", "- Responsive Styled Components", "- Date and Time Picker Components"],
             "techKeywords": "React Native, Firebase, Javascript, React Router, Android, iOS, Android Studio, Xcode, NPM",
@@ -1254,7 +1260,7 @@
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-ManagerApp"
+                "url": "https://github.com/boomtechny/BT-ManagerApp"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1262,7 +1268,7 @@
                 "subsections": [{
                         "id": 1,
                         "title": "Brief",
-                        "information":[ "Project Scope involved creation of mobile application to manage employees and shift schedules. Required implementation of user registration user flow and login validation"]
+                        "information": ["Project Scope involved creation of mobile application to manage employees and shift schedules. Required implementation of user registration user flow and login validation"]
                     },
                     {
                         "id": 2,
@@ -1270,9 +1276,9 @@
                         "information": ["- Created Wireframe prototype utilizing Balsamiq before implementing code", "- Performed testing of communication with Firebase Store", "- Implemented Date and Time Components", "- Coded Editable Form Elements", "- Developed User Registration and Authentication", "- Created components to work on both Android and iOS platforms"]
                     },
                     {
-                            "id": 3,
-                            "title": "",
-                            "images": [{
+                        "id": 3,
+                        "title": "",
+                        "images": [{
                                 "imageid": 1,
                                 "imagetype": "behance",
                                 "image": "managerapp_preview.png",
@@ -1303,27 +1309,28 @@
                                 "imagetitle": "Preview",
                                 "imagecaption": "Preview",
                                 "imageformat": "png"
-                            }   
-                            ]
-                        }
+                            }
+                        ]
+                    }
                 ]
             }]
         },
-         {
+        {
             "id": 16,
             "title": "Login Authorization - Android, iOS",
-            "services": ["MOBILE APPLICATION DEVELOPMENT","REACT NATIVE, REDUX", "FIREBASE"],
-            "liveurl":"https://github.com/boomtechny/BT-ReactNative-AuthApp",
+            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE, REDUX", "FIREBASE"],
+            "liveurl": "https://github.com/boomtechny/BT-ReactNative-AuthApp",
             "image": "authapp_preview.png",
             "shortdescription": ["Implementation of User Login Authorization utilizing Firebase API",
-            "- Reusable components", "- Asynchronous event handling", "- Styled components"],
+                "- Reusable components", "- Asynchronous event handling", "- Styled components"
+            ],
             "techKeywords": "React Native, Android, iOS, React, Android Studio, XCode, NPM",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-ReactNative-AuthApp"
+                "url": "https://github.com/boomtechny/BT-ReactNative-AuthApp"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1338,57 +1345,59 @@
                         "title": "Process",
                         "information": ["- Asynchronous communication with Firebase", "- Component State Management Utilizing Redux", "- Implementation of Login Validation and Authorization", "-Coded reusable input form components"]
                     },
-                     {
-                            "id": 3,
-                            "title": "Previews",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "authapp_preview.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            }]},
-                                    {
-                            "id": 4,
-                            "title": "Previews",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "authapp_screen2.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            }]},
-                                    {
-                            "id": 5,
-                            "title": "Previews",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "authapp_screen3.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            }]}
-                            ]
-                        }
+                    {
+                        "id": 3,
+                        "title": "Previews",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "authapp_preview.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    },
+                    {
+                        "id": 4,
+                        "title": "Previews",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "authapp_screen2.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    },
+                    {
+                        "id": 5,
+                        "title": "Previews",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "authapp_screen3.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    }
                 ]
-         },
-         {
+            }]
+        },
+        {
             "id": 17,
             "title": "Album List - Android, iOS",
-            "services": ["MOBILE APPLICATION DEVELOPMENT","REACT NATIVE", "Javascript"],
-            "liveurl":"https://github.com/boomtechny/BT-ReactNative-AlbumApp",
+            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE", "Javascript"],
+            "liveurl": "https://github.com/boomtechny/BT-ReactNative-AlbumApp",
             "image": "albumapp_preview.png",
-            "shortdescription": ["React Native mobile application to view listing of albums and be directed to Amazon site to purchase the album", "- Responsive component design","- Programmed reusable components"],
+            "shortdescription": ["React Native mobile application to view listing of albums and be directed to Amazon site to purchase the album", "- Responsive component design", "- Programmed reusable components"],
             "techKeywords": "React, React Router, JSON, Android, iOS, Android Studio, Xcode",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-ReactNative-AlbumApp"
+                "url": "https://github.com/boomtechny/BT-ReactNative-AlbumApp"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1401,45 +1410,48 @@
                     {
                         "id": 2,
                         "title": "Process",
-                        "information":[ "- Utilized Balsamiq to prepare wireframe design before implementing code", "- Created reusable components to support images, buttons inputs, and listing views"]
+                        "information": ["- Utilized Balsamiq to prepare wireframe design before implementing code", "- Created reusable components to support images, buttons inputs, and listing views"]
                     },
-                            {
-                            "id": 3,
-                            "title": "Previews",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "albumapp_preview.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            }]},
-                                    {
-                            "id": 3,
-                            "title": "Previews",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "albumapp_screen2.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            }]},
-                                    {
-                            "id": 3,
-                            "title": "Previews",
-                            "images": [{
-                                "imageid": 1,
-                                "imagetype": "behance",
-                                "image": "albumapp_screen3.png",
-                                "imagetitle": "Preview",
-                                "imagecaption": "Preview",
-                                "imageformat": "png"
-                            }]}
+                    {
+                        "id": 3,
+                        "title": "Previews",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "albumapp_preview.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    },
+                    {
+                        "id": 3,
+                        "title": "Previews",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "albumapp_screen2.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    },
+                    {
+                        "id": 3,
+                        "title": "Previews",
+                        "images": [{
+                            "imageid": 1,
+                            "imagetype": "behance",
+                            "image": "albumapp_screen3.png",
+                            "imagetitle": "Preview",
+                            "imagecaption": "Preview",
+                            "imageformat": "png"
+                        }]
+                    }
                 ]
             }]
         },
-      {
+        {
             "id": 18,
             "title": "Beast1x5",
             "services": [
@@ -1447,17 +1459,16 @@
                 "WORDPRESS THEMES AND PLUGINS",
                 "GRAPHIC DESIGN"
             ],
-            "liveurl":"http://beast1x5.boomtechny.x10host.com/",
+            "liveurl": "http://beast1x5.boomtechny.x10host.com/",
             "image": "logo_beast1x52.svg",
-            "shortdescription": ["Wordpress Blog Theme and Plugins to support Video Game related content, Twitch Broadcasting, and Youtube Videos"
-            ],
+            "shortdescription": ["Wordpress Blog Theme and Plugins to support Video Game related content, Twitch Broadcasting, and Youtube Videos"],
             "techKeywords": "Wordpress, PHP, MySQL, Twitch API, Youtube API, Bootstrap, Docker",
             "externallinks": [{
                 "id": 1,
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-Channel"
+                "url": "https://github.com/boomtechny/BT-Channel"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1470,10 +1481,10 @@
                     {
                         "id": 2,
                         "title": "Process",
-                        "information": ["- Created plugin to generate posts using CORS to schedule querying youtube for new video content for user's Youtube Channel", "- Created theme to support Twitch based streaming and youtube ","Since the client was an active twitch host and had a robust collection of video game related video content available on his Youtube page, it was a core principle to seek to tie these two together on a single site.",
-                        "- The scope of the project extended to supporting blog content since the client also is active in related hobbies, such as vaping, traveling to arcades in Japan, created music content, held a collection of video game material, and other personal content that would share the interets of the same audience.",
-                        "-The current supported logo, was in need of refactor, and my first iteration to the site required a different approach that utilized Wordpress's features, as well as make it adoptable by other interested clients, or allow the client to scale his own in the future. I went about strategizing how content may be organized, easily edited, and updated, and what required dynamic elements.",
-                        "- Planned how to best use the Youtube API, and implement communication between the site and the Twitch API endpoint for realtime status updates and chat accessibility.I also needed to recreate the brand and add a professional look to the channel host that would assist in generating a larger audience. I added Ad Space to the theme to in turn to generate revenue and in turn help keep the site active as users visited the site. Search Engine Optimization techniques were applied to further extend the reach for the site."
+                        "information": ["- Created plugin to generate posts using CORS to schedule querying youtube for new video content for user's Youtube Channel", "- Created theme to support Twitch based streaming and youtube ", "Since the client was an active twitch host and had a robust collection of video game related video content available on his Youtube page, it was a core principle to seek to tie these two together on a single site.",
+                            "- The scope of the project extended to supporting blog content since the client also is active in related hobbies, such as vaping, traveling to arcades in Japan, created music content, held a collection of video game material, and other personal content that would share the interets of the same audience.",
+                            "-The current supported logo, was in need of refactor, and my first iteration to the site required a different approach that utilized Wordpress's features, as well as make it adoptable by other interested clients, or allow the client to scale his own in the future. I went about strategizing how content may be organized, easily edited, and updated, and what required dynamic elements.",
+                            "- Planned how to best use the Youtube API, and implement communication between the site and the Twitch API endpoint for realtime status updates and chat accessibility.I also needed to recreate the brand and add a professional look to the channel host that would assist in generating a larger audience. I added Ad Space to the theme to in turn to generate revenue and in turn help keep the site active as users visited the site. Search Engine Optimization techniques were applied to further extend the reach for the site."
                         ]
                     },
                     {
@@ -1484,12 +1495,11 @@
                 ]
             }]
 
-        }, 
-{
+        },
+        {
             "id": 19,
             "title": "Match-Up - Android, iOS",
-            "services": ["MOBILE APPLICATION DEVELOPMENT","REACT NATIVE, REDUX, FIREBASE","GRAPHIC DESIGN"
-            ],
+            "services": ["MOBILE APPLICATION DEVELOPMENT", "REACT NATIVE, REDUX, FIREBASE", "GRAPHIC DESIGN"],
             "liveurl": "https://www.boomtechny.com",
             "image": "matchup.png",
             "shortdescription": ["Application for fighters and gym owners to conveniently find sparring partners and schedule sparring"],
@@ -1499,7 +1509,7 @@
                 "name": "Git",
                 "svgref": "git",
                 "image": "git-icon.svg",
-                "url":"https://github.com/boomtechny/BT-Matchup"
+                "url": "https://github.com/boomtechny/BT-Matchup"
             }],
             "sections": [{
                 "sectionid": 1,
@@ -1512,7 +1522,7 @@
                     {
                         "id": 2,
                         "title": "Process",
-                        "information": ["- Utilized React Native and Redux to create a minium viable cross platform mobile application product.", "- Stategizing and scoping the core features necessary to meet user criteria.", "- Mapped out user stories, and establishing how to keep the experience simple and direct so that any user may install the app and get to fulfilling the task they sought out to do as seamless as possible.","- The app implements invitation features to extends interest of using the app to other users.", "- Scaling for future features of the app also placed under consideration","User flow for two  types of users.", "- Users would need to query information about other users based on certain criteria, as well create and edit spar request forms sent to other others users.", "Planned out an optimal database structure necessary to delivery content to the UI.", "- Utilized Firebase to handle real-time data store as well as user authentication","- Critical image assets designed to support the user interface", "Created a brand logo with supported typography, and color scheme that would suit the user interface."]
+                        "information": ["- Utilized React Native and Redux to create a minium viable cross platform mobile application product.", "- Stategizing and scoping the core features necessary to meet user criteria.", "- Mapped out user stories, and establishing how to keep the experience simple and direct so that any user may install the app and get to fulfilling the task they sought out to do as seamless as possible.", "- The app implements invitation features to extends interest of using the app to other users.", "- Scaling for future features of the app also placed under consideration", "User flow for two  types of users.", "- Users would need to query information about other users based on certain criteria, as well create and edit spar request forms sent to other others users.", "Planned out an optimal database structure necessary to delivery content to the UI.", "- Utilized Firebase to handle real-time data store as well as user authentication", "- Critical image assets designed to support the user interface", "Created a brand logo with supported typography, and color scheme that would suit the user interface."]
                     },
                     {
                         "id": 3,
@@ -1522,5 +1532,5 @@
                 ]
             }]
         }
-        ]}
-    
+    ]
+}
