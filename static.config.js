@@ -12,7 +12,7 @@ export default {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
          <meta name="description" content= "Portfolio Site for BoomTech"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
         <title>BoomTechNY</title>
 
       </Head>
