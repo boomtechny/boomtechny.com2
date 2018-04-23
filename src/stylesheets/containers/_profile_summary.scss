@@ -443,14 +443,12 @@
     align-self: start;
     @media(max-width: $breakpoint-desktop) {
         //justify-self:start;
-        margin-top: 0rem;
+        margin-top: 1rem;
         @media(max-width: $breakpoint-desktop-x) {
             padding-bottom: 5rem;
         }
     }
-    @media(max-width:$breakpoint-tablet) {
-        margin-top: 1rem;
-    }
+    @media(max-width:$breakpoint-tablet) {}
     @media(max-width:$breakpoint-mobile) {
         padding-left: 5%;
         padding-right: 5%;
